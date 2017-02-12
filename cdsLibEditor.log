@@ -1,0 +1,15 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.5 - CAT32 05/06/2013 23:37 (cat91amd) $
+\o Sub version:		sub-version  s014 
+\o Arguments:		-cdslib /nethome/msrinivas3/ECE_Cadence_Lab/ECE6130Project/cds.lib -mpssession virtuoso29182 -mpshost ccblincad06.ece.gatech.edu 
+\o Working Directory:	ccblincad06.ece.gatech.edu:/nethome/msrinivas3/ECE_Cadence_Lab/ECE6130Project
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		4.5.3
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 0 0)
+\o Active cell: 0 0 "cdsDefTechLib"
+\a nrResizeWindow(cdsLibEditor list(0 49 500 400))
+\a nrListItemAction(cdsLibEditor->mainTable 9 1)
+\o Active cell: 9 1 "/nethome/msrinivas3/ECE_Cadence_Lab/ECE6130Project/ECEProj"
+\a cdsLibEditor->fileExitButton->value = t
+\a nrSetWindowVisibility(cdsLibEditor "hide")
+\a exit(0)

@@ -1,0 +1,6 @@
+# ECE6130
+
+Following are the design rules followed in this project.
+
+1. All sizing factors are integers, which act as multipliers to the feature length.
+2. 

@@ -1,0 +1,3 @@
+SOFTINCLUDE /nethome/msrinivas3/cds.lib
+DEFINE ECEProj /nethome/msrinivas3/ECE_Cadence_Lab/ECE6130Project/ECEProj
+DEFINE ECEProject /nethome/msrinivas3/ECE_Cadence_Lab//ECEProject

@@ -1,0 +1,2259 @@
+// File: /nethome/nsoraba3/ECE_Cadence_Lab/Cadence/ECE6130Project/extracted.netlist
+// Created: Sun Nov 27 23:57:07 2016
+// Program "Calibre xRC"
+// Version "v2015.2_27.20"
+// 
+simulator lang=spectre
+include "/nethome/nsoraba3/ECE_Cadence_Lab/Cadence/ECE6130Project/extracted.netlist.pex"
+subckt systemLayout_2 (  GND! BL\<0\> BL_B\<0\> BL_B\<1\> BL\<1\> BL\<2\> \
+ BL_B\<2\> BL_B\<3\> BL\<3\> BL\<4\> BL_B\<4\> BL_B\<5\> BL\<5\> BL\<6\> \
+ BL_B\<6\> BL_B\<7\> BL\<7\> A\<1\> A_B\<1\> BL\<8\> BL_B\<8\> BL_B\<9\> \
+ BL\<9\> BL\<10\> BL_B\<10\> BL_B\<11\> BL\<11\> BL\<12\> BL_B\<12\> \
+ BL_B\<13\> BL\<13\> BL\<14\> BL_B\<14\> BL_B\<15\> BL\<15\> A\<2\> A_B\<2\> \
+ BL\<16\> BL_B\<16\> BL_B\<17\> BL\<17\> BL\<18\> BL_B\<18\> BL_B\<19\> \
+ BL\<19\> BL\<20\> BL_B\<20\> BL_B\<21\> BL\<21\> BL\<22\> BL_B\<22\> \
+ BL_B\<23\> BL\<23\> A\<3\> A_B\<3\> BL\<24\> BL_B\<24\> BL_B\<25\> BL\<25\> \
+ BL\<26\> BL_B\<26\> BL_B\<27\> BL\<27\> BL\<28\> BL_B\<28\> BL_B\<29\> \
+ BL\<29\> BL\<30\> BL_B\<30\> BL_B\<31\> BL\<31\> WL\<15\> WL\<14\> WL\<13\> \
+ WL\<12\> WL\<11\> WL\<10\> WL\<9\> WL\<8\> WL\<7\> WL\<6\> WL\<5\> WL\<4\> \
+ WL\<3\> WL\<2\> WL\<1\> WL\<0\> A\<0\> A_B\<0\> P VDD! )
+// 
+// VDD!	VDD!
+// P	P
+// A_B<0>	A_B<0>
+// A<0>	A<0>
+// WL<0>	WL<0>
+// WL<1>	WL<1>
+// WL<2>	WL<2>
+// WL<3>	WL<3>
+// WL<4>	WL<4>
+// WL<5>	WL<5>
+// WL<6>	WL<6>
+// WL<7>	WL<7>
+// WL<8>	WL<8>
+// WL<9>	WL<9>
+// WL<10>	WL<10>
+// WL<11>	WL<11>
+// WL<12>	WL<12>
+// WL<13>	WL<13>
+// WL<14>	WL<14>
+// WL<15>	WL<15>
+// BL<31>	BL<31>
+// BL_B<31>	BL_B<31>
+// BL_B<30>	BL_B<30>
+// BL<30>	BL<30>
+// BL<29>	BL<29>
+// BL_B<29>	BL_B<29>
+// BL_B<28>	BL_B<28>
+// BL<28>	BL<28>
+// BL<27>	BL<27>
+// BL_B<27>	BL_B<27>
+// BL_B<26>	BL_B<26>
+// BL<26>	BL<26>
+// BL<25>	BL<25>
+// BL_B<25>	BL_B<25>
+// BL_B<24>	BL_B<24>
+// BL<24>	BL<24>
+// A_B<3>	A_B<3>
+// A<3>	A<3>
+// BL<23>	BL<23>
+// BL_B<23>	BL_B<23>
+// BL_B<22>	BL_B<22>
+// BL<22>	BL<22>
+// BL<21>	BL<21>
+// BL_B<21>	BL_B<21>
+// BL_B<20>	BL_B<20>
+// BL<20>	BL<20>
+// BL<19>	BL<19>
+// BL_B<19>	BL_B<19>
+// BL_B<18>	BL_B<18>
+// BL<18>	BL<18>
+// BL<17>	BL<17>
+// BL_B<17>	BL_B<17>
+// BL_B<16>	BL_B<16>
+// BL<16>	BL<16>
+// A_B<2>	A_B<2>
+// A<2>	A<2>
+// BL<15>	BL<15>
+// BL_B<15>	BL_B<15>
+// BL_B<14>	BL_B<14>
+// BL<14>	BL<14>
+// BL<13>	BL<13>
+// BL_B<13>	BL_B<13>
+// BL_B<12>	BL_B<12>
+// BL<12>	BL<12>
+// BL<11>	BL<11>
+// BL_B<11>	BL_B<11>
+// BL_B<10>	BL_B<10>
+// BL<10>	BL<10>
+// BL<9>	BL<9>
+// BL_B<9>	BL_B<9>
+// BL_B<8>	BL_B<8>
+// BL<8>	BL<8>
+// A_B<1>	A_B<1>
+// A<1>	A<1>
+// BL<7>	BL<7>
+// BL_B<7>	BL_B<7>
+// BL_B<6>	BL_B<6>
+// BL<6>	BL<6>
+// BL<5>	BL<5>
+// BL_B<5>	BL_B<5>
+// BL_B<4>	BL_B<4>
+// BL<4>	BL<4>
+// BL<3>	BL<3>
+// BL_B<3>	BL_B<3>
+// BL_B<2>	BL_B<2>
+// BL<2>	BL<2>
+// BL<1>	BL<1>
+// BL_B<1>	BL_B<1>
+// BL_B<0>	BL_B<0>
+// BL<0>	BL<0>
+// GND!	GND!
+mXinv\<15\>\/MNMOS ( N_WL_INV\<15\>_Xinv\<15\>\/MNMOS_d \
+ N_WL\<15\>_Xinv\<15\>\/MNMOS_g N_GND!_Xinv\<15\>\/MNMOS_s \
+ N_GND!_Xinv\<15\>\/MNMOS_b ) NMOS_VTL l=5e-08 w=2.5e-07 ad=1.00625e-13 \
+ as=6.875e-14 pd=1.305e-06 ps=1.05e-06
+mXinv\<14\>\/MNMOS ( N_WL_INV\<14\>_Xinv\<14\>\/MNMOS_d \
+ N_WL\<14\>_Xinv\<14\>\/MNMOS_g N_GND!_Xinv\<14\>\/MNMOS_s \
+ N_GND!_Xinv\<15\>\/MNMOS_b ) NMOS_VTL l=5e-08 w=2.5e-07 ad=1.00625e-13 \
+ as=6.875e-14 pd=1.305e-06 ps=1.05e-06
+mXinv\<13\>\/MNMOS ( N_WL_INV\<13\>_Xinv\<13\>\/MNMOS_d \
+ N_WL\<13\>_Xinv\<13\>\/MNMOS_g N_GND!_Xinv\<13\>\/MNMOS_s \
+ N_GND!_Xinv\<13\>\/MNMOS_b ) NMOS_VTL l=5e-08 w=2.5e-07 ad=1.00625e-13 \
+ as=6.875e-14 pd=1.305e-06 ps=1.05e-06
+mXinv\<12\>\/MNMOS ( N_WL_INV\<12\>_Xinv\<12\>\/MNMOS_d \
+ N_WL\<12\>_Xinv\<12\>\/MNMOS_g N_GND!_Xinv\<12\>\/MNMOS_s \
+ N_GND!_Xinv\<13\>\/MNMOS_b ) NMOS_VTL l=5e-08 w=2.5e-07 ad=1.00625e-13 \
+ as=6.875e-14 pd=1.305e-06 ps=1.05e-06
+mXinv\<11\>\/MNMOS ( N_WL_INV\<11\>_Xinv\<11\>\/MNMOS_d \
+ N_WL\<11\>_Xinv\<11\>\/MNMOS_g N_GND!_Xinv\<11\>\/MNMOS_s \
+ N_GND!_Xinv\<11\>\/MNMOS_b ) NMOS_VTL l=5e-08 w=2.5e-07 ad=1.00625e-13 \
+ as=6.875e-14 pd=1.305e-06 ps=1.05e-06
+mXinv\<10\>\/MNMOS ( N_WL_INV\<10\>_Xinv\<10\>\/MNMOS_d \
+ N_WL\<10\>_Xinv\<10\>\/MNMOS_g N_GND!_Xinv\<10\>\/MNMOS_s \
+ N_GND!_Xinv\<11\>\/MNMOS_b ) NMOS_VTL l=5e-08 w=2.5e-07 ad=1.00625e-13 \
+ as=6.875e-14 pd=1.305e-06 ps=1.05e-06
+mXinv\<9\>\/MNMOS ( N_WL_INV\<9\>_Xinv\<9\>\/MNMOS_d \
+ N_WL\<9\>_Xinv\<9\>\/MNMOS_g N_GND!_Xinv\<9\>\/MNMOS_s \
+ N_GND!_Xinv\<9\>\/MNMOS_b ) NMOS_VTL l=5e-08 w=2.5e-07 ad=1.00625e-13 \
+ as=6.875e-14 pd=1.305e-06 ps=1.05e-06
+mXinv\<8\>\/MNMOS ( N_WL_INV\<8\>_Xinv\<8\>\/MNMOS_d \
+ N_WL\<8\>_Xinv\<8\>\/MNMOS_g N_GND!_Xinv\<8\>\/MNMOS_s \
+ N_GND!_Xinv\<9\>\/MNMOS_b ) NMOS_VTL l=5e-08 w=2.5e-07 ad=1.00625e-13 \
+ as=6.875e-14 pd=1.305e-06 ps=1.05e-06
+mXinv\<7\>\/MNMOS ( N_WL_INV\<7\>_Xinv\<7\>\/MNMOS_d \
+ N_WL\<7\>_Xinv\<7\>\/MNMOS_g N_GND!_Xinv\<7\>\/MNMOS_s \
+ N_GND!_Xinv\<7\>\/MNMOS_b ) NMOS_VTL l=5e-08 w=2.5e-07 ad=1.00625e-13 \
+ as=6.875e-14 pd=1.305e-06 ps=1.05e-06
+mXinv\<6\>\/MNMOS ( N_WL_INV\<6\>_Xinv\<6\>\/MNMOS_d \
+ N_WL\<6\>_Xinv\<6\>\/MNMOS_g N_GND!_Xinv\<6\>\/MNMOS_s \
+ N_GND!_Xinv\<7\>\/MNMOS_b ) NMOS_VTL l=5e-08 w=2.5e-07 ad=1.00625e-13 \
+ as=6.875e-14 pd=1.305e-06 ps=1.05e-06
+mXinv\<5\>\/MNMOS ( N_WL_INV\<5\>_Xinv\<5\>\/MNMOS_d \
+ N_WL\<5\>_Xinv\<5\>\/MNMOS_g N_GND!_Xinv\<5\>\/MNMOS_s \
+ N_GND!_Xinv\<5\>\/MNMOS_b ) NMOS_VTL l=5e-08 w=2.5e-07 ad=1.00625e-13 \
+ as=6.875e-14 pd=1.305e-06 ps=1.05e-06
+mXinv\<4\>\/MNMOS ( N_WL_INV\<4\>_Xinv\<4\>\/MNMOS_d \
+ N_WL\<4\>_Xinv\<4\>\/MNMOS_g N_GND!_Xinv\<4\>\/MNMOS_s \
+ N_GND!_Xinv\<5\>\/MNMOS_b ) NMOS_VTL l=5e-08 w=2.5e-07 ad=1.00625e-13 \
+ as=6.875e-14 pd=1.305e-06 ps=1.05e-06
+mXinv\<3\>\/MNMOS ( N_WL_INV\<3\>_Xinv\<3\>\/MNMOS_d \
+ N_WL\<3\>_Xinv\<3\>\/MNMOS_g N_GND!_Xinv\<3\>\/MNMOS_s \
+ N_GND!_Xinv\<3\>\/MNMOS_b ) NMOS_VTL l=5e-08 w=2.5e-07 ad=1.00625e-13 \
+ as=6.875e-14 pd=1.305e-06 ps=1.05e-06
+mXinv\<2\>\/MNMOS ( N_WL_INV\<2\>_Xinv\<2\>\/MNMOS_d \
+ N_WL\<2\>_Xinv\<2\>\/MNMOS_g N_GND!_Xinv\<2\>\/MNMOS_s \
+ N_GND!_Xinv\<3\>\/MNMOS_b ) NMOS_VTL l=5e-08 w=2.5e-07 ad=1.00625e-13 \
+ as=6.875e-14 pd=1.305e-06 ps=1.05e-06
+mXinv\<1\>\/MNMOS ( N_WL_INV\<1\>_Xinv\<1\>\/MNMOS_d \
+ N_WL\<1\>_Xinv\<1\>\/MNMOS_g N_GND!_Xinv\<1\>\/MNMOS_s \
+ N_GND!_Xinv\<1\>\/MNMOS_b ) NMOS_VTL l=5e-08 w=2.5e-07 ad=1.00625e-13 \
+ as=6.875e-14 pd=1.305e-06 ps=1.05e-06
+mXinv\<0\>\/MNMOS ( N_WL_INV\<0\>_Xinv\<0\>\/MNMOS_d \
+ N_WL\<0\>_Xinv\<0\>\/MNMOS_g N_GND!_Xinv\<0\>\/MNMOS_s \
+ N_GND!_Xinv\<1\>\/MNMOS_b ) NMOS_VTL l=5e-08 w=2.5e-07 ad=1.00625e-13 \
+ as=6.875e-14 pd=1.305e-06 ps=1.05e-06
+mXI5\<15\>\/Maccess ( N_BL_I\<0\>_XI5\<15\>\/Maccess_d \
+ N_WL_INV\<15\>_XI5\<15\>\/Maccess_g N_XI5\<15\>\/SRAM_XI5\<15\>\/Maccess_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=4.625e-14 \
+ as=6.79375e-14 pd=9.9e-07 ps=1.095e-06
+mXI5\<14\>\/Maccess ( N_BL_I\<0\>_XI5\<15\>\/Maccess_d \
+ N_WL_INV\<14\>_XI5\<14\>\/Maccess_g N_XI5\<14\>\/SRAM_XI5\<14\>\/Maccess_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=4.625e-14 \
+ as=6.79375e-14 pd=9.9e-07 ps=1.095e-06
+mXI5\<13\>\/Maccess ( N_BL_I\<0\>_XI5\<13\>\/Maccess_d \
+ N_WL_INV\<13\>_XI5\<13\>\/Maccess_g N_XI5\<13\>\/SRAM_XI5\<13\>\/Maccess_s \
+ N_GND!_XI5\<13\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=4.625e-14 \
+ as=6.79375e-14 pd=9.9e-07 ps=1.095e-06
+mXI5\<12\>\/Maccess ( N_BL_I\<0\>_XI5\<13\>\/Maccess_d \
+ N_WL_INV\<12\>_XI5\<12\>\/Maccess_g N_XI5\<12\>\/SRAM_XI5\<12\>\/Maccess_s \
+ N_GND!_XI5\<13\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=4.625e-14 \
+ as=6.79375e-14 pd=9.9e-07 ps=1.095e-06
+mXI5\<11\>\/Maccess ( N_BL_I\<0\>_XI5\<11\>\/Maccess_d \
+ N_WL_INV\<11\>_XI5\<11\>\/Maccess_g N_XI5\<11\>\/SRAM_XI5\<11\>\/Maccess_s \
+ N_GND!_XI5\<11\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=4.625e-14 \
+ as=6.79375e-14 pd=9.9e-07 ps=1.095e-06
+mXI5\<10\>\/Maccess ( N_BL_I\<0\>_XI5\<11\>\/Maccess_d \
+ N_WL_INV\<10\>_XI5\<10\>\/Maccess_g N_XI5\<10\>\/SRAM_XI5\<10\>\/Maccess_s \
+ N_GND!_XI5\<11\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=4.625e-14 \
+ as=6.79375e-14 pd=9.9e-07 ps=1.095e-06
+mXI5\<9\>\/Maccess ( N_BL_I\<0\>_XI5\<9\>\/Maccess_d \
+ N_WL_INV\<9\>_XI5\<9\>\/Maccess_g N_XI5\<9\>\/SRAM_XI5\<9\>\/Maccess_s \
+ N_GND!_XI5\<9\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=4.625e-14 \
+ as=6.79375e-14 pd=9.9e-07 ps=1.095e-06
+mXI5\<8\>\/Maccess ( N_BL_I\<0\>_XI5\<9\>\/Maccess_d \
+ N_WL_INV\<8\>_XI5\<8\>\/Maccess_g N_XI5\<8\>\/SRAM_XI5\<8\>\/Maccess_s \
+ N_GND!_XI5\<9\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=4.625e-14 \
+ as=6.79375e-14 pd=9.9e-07 ps=1.095e-06
+mXI5\<7\>\/Maccess ( N_BL_I\<0\>_XI5\<7\>\/Maccess_d \
+ N_WL_INV\<7\>_XI5\<7\>\/Maccess_g N_XI5\<7\>\/SRAM_XI5\<7\>\/Maccess_s \
+ N_GND!_XI5\<7\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=4.625e-14 \
+ as=6.79375e-14 pd=9.9e-07 ps=1.095e-06
+mXI5\<6\>\/Maccess ( N_BL_I\<0\>_XI5\<7\>\/Maccess_d \
+ N_WL_INV\<6\>_XI5\<6\>\/Maccess_g N_XI5\<6\>\/SRAM_XI5\<6\>\/Maccess_s \
+ N_GND!_XI5\<7\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=4.625e-14 \
+ as=6.79375e-14 pd=9.9e-07 ps=1.095e-06
+mXI5\<5\>\/Maccess ( N_BL_I\<0\>_XI5\<5\>\/Maccess_d \
+ N_WL_INV\<5\>_XI5\<5\>\/Maccess_g N_XI5\<5\>\/SRAM_XI5\<5\>\/Maccess_s \
+ N_GND!_XI5\<5\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=4.625e-14 \
+ as=6.79375e-14 pd=9.9e-07 ps=1.095e-06
+mXI5\<4\>\/Maccess ( N_BL_I\<0\>_XI5\<5\>\/Maccess_d \
+ N_WL_INV\<4\>_XI5\<4\>\/Maccess_g N_XI5\<4\>\/SRAM_XI5\<4\>\/Maccess_s \
+ N_GND!_XI5\<5\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=4.625e-14 \
+ as=6.79375e-14 pd=9.9e-07 ps=1.095e-06
+mXI5\<3\>\/Maccess ( N_BL_I\<0\>_XI5\<3\>\/Maccess_d \
+ N_WL_INV\<3\>_XI5\<3\>\/Maccess_g N_XI5\<3\>\/SRAM_XI5\<3\>\/Maccess_s \
+ N_GND!_XI5\<3\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=4.625e-14 \
+ as=6.79375e-14 pd=9.9e-07 ps=1.095e-06
+mXI5\<2\>\/Maccess ( N_BL_I\<0\>_XI5\<3\>\/Maccess_d \
+ N_WL_INV\<2\>_XI5\<2\>\/Maccess_g N_XI5\<2\>\/SRAM_XI5\<2\>\/Maccess_s \
+ N_GND!_XI5\<3\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=4.625e-14 \
+ as=6.79375e-14 pd=9.9e-07 ps=1.095e-06
+mXI5\<1\>\/Maccess ( N_BL_I\<0\>_XI5\<1\>\/Maccess_d \
+ N_WL_INV\<1\>_XI5\<1\>\/Maccess_g N_XI5\<1\>\/SRAM_XI5\<1\>\/Maccess_s \
+ N_GND!_XI5\<1\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=4.625e-14 \
+ as=6.79375e-14 pd=9.9e-07 ps=1.095e-06
+mXI5\<0\>\/Maccess ( N_BL_I\<0\>_XI5\<1\>\/Maccess_d \
+ N_WL_INV\<0\>_XI5\<0\>\/Maccess_g N_XI5\<0\>\/SRAM_XI5\<0\>\/Maccess_s \
+ N_GND!_XI5\<1\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=4.625e-14 \
+ as=6.79375e-14 pd=9.9e-07 ps=1.095e-06
+mXtgate\<0\>\/MM0 ( N_BL_I\<0\>_Xtgate\<0\>\/MM0_d N_A\<0\>_Xtgate\<0\>\/MM0_g \
+ N_BL\<0\>_Xtgate\<0\>\/MM0_s N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 \
+ w=1.35e-07 ad=2.0925e-14 as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI5\<15\>\/Mnmos ( N_XI5\<15\>\/SRAM_XI5\<15\>\/Maccess_s \
+ N_XI5\<15\>\/SRAM_B_XI5\<15\>\/Mnmos_g N_GND!_XI5\<15\>\/Mnmos_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=1.406e-13 pd=1.095e-06 ps=2.66e-06
+mXI5\<14\>\/Mnmos ( N_XI5\<14\>\/SRAM_XI5\<14\>\/Maccess_s \
+ N_XI5\<14\>\/SRAM_B_XI5\<14\>\/Mnmos_g N_GND!_XI5\<15\>\/Mnmos_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=1.406e-13 pd=1.095e-06 ps=2.66e-06
+mXI5\<13\>\/Mnmos ( N_XI5\<13\>\/SRAM_XI5\<13\>\/Maccess_s \
+ N_XI5\<13\>\/SRAM_B_XI5\<13\>\/Mnmos_g N_GND!_XI5\<13\>\/Mnmos_s \
+ N_GND!_XI5\<13\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=1.406e-13 pd=1.095e-06 ps=2.66e-06
+mXI5\<12\>\/Mnmos ( N_XI5\<12\>\/SRAM_XI5\<12\>\/Maccess_s \
+ N_XI5\<12\>\/SRAM_B_XI5\<12\>\/Mnmos_g N_GND!_XI5\<13\>\/Mnmos_s \
+ N_GND!_XI5\<13\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=1.406e-13 pd=1.095e-06 ps=2.66e-06
+mXI5\<11\>\/Mnmos ( N_XI5\<11\>\/SRAM_XI5\<11\>\/Maccess_s \
+ N_XI5\<11\>\/SRAM_B_XI5\<11\>\/Mnmos_g N_GND!_XI5\<11\>\/Mnmos_s \
+ N_GND!_XI5\<11\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=1.406e-13 pd=1.095e-06 ps=2.66e-06
+mXI5\<10\>\/Mnmos ( N_XI5\<10\>\/SRAM_XI5\<10\>\/Maccess_s \
+ N_XI5\<10\>\/SRAM_B_XI5\<10\>\/Mnmos_g N_GND!_XI5\<11\>\/Mnmos_s \
+ N_GND!_XI5\<11\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=1.406e-13 pd=1.095e-06 ps=2.66e-06
+mXI5\<9\>\/Mnmos ( N_XI5\<9\>\/SRAM_XI5\<9\>\/Maccess_s \
+ N_XI5\<9\>\/SRAM_B_XI5\<9\>\/Mnmos_g N_GND!_XI5\<9\>\/Mnmos_s \
+ N_GND!_XI5\<9\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=1.406e-13 pd=1.095e-06 ps=2.66e-06
+mXI5\<8\>\/Mnmos ( N_XI5\<8\>\/SRAM_XI5\<8\>\/Maccess_s \
+ N_XI5\<8\>\/SRAM_B_XI5\<8\>\/Mnmos_g N_GND!_XI5\<9\>\/Mnmos_s \
+ N_GND!_XI5\<9\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=1.406e-13 pd=1.095e-06 ps=2.66e-06
+mXI5\<7\>\/Mnmos ( N_XI5\<7\>\/SRAM_XI5\<7\>\/Maccess_s \
+ N_XI5\<7\>\/SRAM_B_XI5\<7\>\/Mnmos_g N_GND!_XI5\<7\>\/Mnmos_s \
+ N_GND!_XI5\<7\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=1.406e-13 pd=1.095e-06 ps=2.66e-06
+mXI5\<6\>\/Mnmos ( N_XI5\<6\>\/SRAM_XI5\<6\>\/Maccess_s \
+ N_XI5\<6\>\/SRAM_B_XI5\<6\>\/Mnmos_g N_GND!_XI5\<7\>\/Mnmos_s \
+ N_GND!_XI5\<7\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=1.406e-13 pd=1.095e-06 ps=2.66e-06
+mXI5\<5\>\/Mnmos ( N_XI5\<5\>\/SRAM_XI5\<5\>\/Maccess_s \
+ N_XI5\<5\>\/SRAM_B_XI5\<5\>\/Mnmos_g N_GND!_XI5\<5\>\/Mnmos_s \
+ N_GND!_XI5\<5\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=1.406e-13 pd=1.095e-06 ps=2.66e-06
+mXI5\<4\>\/Mnmos ( N_XI5\<4\>\/SRAM_XI5\<4\>\/Maccess_s \
+ N_XI5\<4\>\/SRAM_B_XI5\<4\>\/Mnmos_g N_GND!_XI5\<5\>\/Mnmos_s \
+ N_GND!_XI5\<5\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=1.406e-13 pd=1.095e-06 ps=2.66e-06
+mXI5\<3\>\/Mnmos ( N_XI5\<3\>\/SRAM_XI5\<3\>\/Maccess_s \
+ N_XI5\<3\>\/SRAM_B_XI5\<3\>\/Mnmos_g N_GND!_XI5\<3\>\/Mnmos_s \
+ N_GND!_XI5\<3\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=1.406e-13 pd=1.095e-06 ps=2.66e-06
+mXI5\<2\>\/Mnmos ( N_XI5\<2\>\/SRAM_XI5\<2\>\/Maccess_s \
+ N_XI5\<2\>\/SRAM_B_XI5\<2\>\/Mnmos_g N_GND!_XI5\<3\>\/Mnmos_s \
+ N_GND!_XI5\<3\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=1.406e-13 pd=1.095e-06 ps=2.66e-06
+mXI5\<1\>\/Mnmos ( N_XI5\<1\>\/SRAM_XI5\<1\>\/Maccess_s \
+ N_XI5\<1\>\/SRAM_B_XI5\<1\>\/Mnmos_g N_GND!_XI5\<1\>\/Mnmos_s \
+ N_GND!_XI5\<1\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=1.406e-13 pd=1.095e-06 ps=2.66e-06
+mXI5\<0\>\/Mnmos ( N_XI5\<0\>\/SRAM_XI5\<0\>\/Maccess_s \
+ N_XI5\<0\>\/SRAM_B_XI5\<0\>\/Mnmos_g N_GND!_XI5\<1\>\/Mnmos_s \
+ N_GND!_XI5\<1\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=1.406e-13 pd=1.095e-06 ps=2.66e-06
+mXI5\<15\>\/Mnmos_b ( N_XI5\<15\>\/SRAM_B_XI5\<15\>\/Mnmos_b_d \
+ N_XI5\<15\>\/SRAM_XI5\<15\>\/Mnmos_b_g N_GND!_XI5\<15\>\/Mnmos_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=1.406e-13 pd=1.12e-06 ps=2.66e-06
+mXI5\<14\>\/Mnmos_b ( N_XI5\<14\>\/SRAM_B_XI5\<14\>\/Mnmos_b_d \
+ N_XI5\<14\>\/SRAM_XI5\<14\>\/Mnmos_b_g N_GND!_XI5\<15\>\/Mnmos_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=1.406e-13 pd=1.12e-06 ps=2.66e-06
+mXI5\<13\>\/Mnmos_b ( N_XI5\<13\>\/SRAM_B_XI5\<13\>\/Mnmos_b_d \
+ N_XI5\<13\>\/SRAM_XI5\<13\>\/Mnmos_b_g N_GND!_XI5\<13\>\/Mnmos_s \
+ N_GND!_XI5\<13\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=1.406e-13 pd=1.12e-06 ps=2.66e-06
+mXI5\<12\>\/Mnmos_b ( N_XI5\<12\>\/SRAM_B_XI5\<12\>\/Mnmos_b_d \
+ N_XI5\<12\>\/SRAM_XI5\<12\>\/Mnmos_b_g N_GND!_XI5\<13\>\/Mnmos_s \
+ N_GND!_XI5\<13\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=1.406e-13 pd=1.12e-06 ps=2.66e-06
+mXI5\<11\>\/Mnmos_b ( N_XI5\<11\>\/SRAM_B_XI5\<11\>\/Mnmos_b_d \
+ N_XI5\<11\>\/SRAM_XI5\<11\>\/Mnmos_b_g N_GND!_XI5\<11\>\/Mnmos_s \
+ N_GND!_XI5\<11\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=1.406e-13 pd=1.12e-06 ps=2.66e-06
+mXI5\<10\>\/Mnmos_b ( N_XI5\<10\>\/SRAM_B_XI5\<10\>\/Mnmos_b_d \
+ N_XI5\<10\>\/SRAM_XI5\<10\>\/Mnmos_b_g N_GND!_XI5\<11\>\/Mnmos_s \
+ N_GND!_XI5\<11\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=1.406e-13 pd=1.12e-06 ps=2.66e-06
+mXI5\<9\>\/Mnmos_b ( N_XI5\<9\>\/SRAM_B_XI5\<9\>\/Mnmos_b_d \
+ N_XI5\<9\>\/SRAM_XI5\<9\>\/Mnmos_b_g N_GND!_XI5\<9\>\/Mnmos_s \
+ N_GND!_XI5\<9\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=1.406e-13 pd=1.12e-06 ps=2.66e-06
+mXI5\<8\>\/Mnmos_b ( N_XI5\<8\>\/SRAM_B_XI5\<8\>\/Mnmos_b_d \
+ N_XI5\<8\>\/SRAM_XI5\<8\>\/Mnmos_b_g N_GND!_XI5\<9\>\/Mnmos_s \
+ N_GND!_XI5\<9\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=1.406e-13 pd=1.12e-06 ps=2.66e-06
+mXI5\<7\>\/Mnmos_b ( N_XI5\<7\>\/SRAM_B_XI5\<7\>\/Mnmos_b_d \
+ N_XI5\<7\>\/SRAM_XI5\<7\>\/Mnmos_b_g N_GND!_XI5\<7\>\/Mnmos_s \
+ N_GND!_XI5\<7\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=1.406e-13 pd=1.12e-06 ps=2.66e-06
+mXI5\<6\>\/Mnmos_b ( N_XI5\<6\>\/SRAM_B_XI5\<6\>\/Mnmos_b_d \
+ N_XI5\<6\>\/SRAM_XI5\<6\>\/Mnmos_b_g N_GND!_XI5\<7\>\/Mnmos_s \
+ N_GND!_XI5\<7\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=1.406e-13 pd=1.12e-06 ps=2.66e-06
+mXI5\<5\>\/Mnmos_b ( N_XI5\<5\>\/SRAM_B_XI5\<5\>\/Mnmos_b_d \
+ N_XI5\<5\>\/SRAM_XI5\<5\>\/Mnmos_b_g N_GND!_XI5\<5\>\/Mnmos_s \
+ N_GND!_XI5\<5\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=1.406e-13 pd=1.12e-06 ps=2.66e-06
+mXI5\<4\>\/Mnmos_b ( N_XI5\<4\>\/SRAM_B_XI5\<4\>\/Mnmos_b_d \
+ N_XI5\<4\>\/SRAM_XI5\<4\>\/Mnmos_b_g N_GND!_XI5\<5\>\/Mnmos_s \
+ N_GND!_XI5\<5\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=1.406e-13 pd=1.12e-06 ps=2.66e-06
+mXI5\<3\>\/Mnmos_b ( N_XI5\<3\>\/SRAM_B_XI5\<3\>\/Mnmos_b_d \
+ N_XI5\<3\>\/SRAM_XI5\<3\>\/Mnmos_b_g N_GND!_XI5\<3\>\/Mnmos_s \
+ N_GND!_XI5\<3\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=1.406e-13 pd=1.12e-06 ps=2.66e-06
+mXI5\<2\>\/Mnmos_b ( N_XI5\<2\>\/SRAM_B_XI5\<2\>\/Mnmos_b_d \
+ N_XI5\<2\>\/SRAM_XI5\<2\>\/Mnmos_b_g N_GND!_XI5\<3\>\/Mnmos_s \
+ N_GND!_XI5\<3\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=1.406e-13 pd=1.12e-06 ps=2.66e-06
+mXI5\<1\>\/Mnmos_b ( N_XI5\<1\>\/SRAM_B_XI5\<1\>\/Mnmos_b_d \
+ N_XI5\<1\>\/SRAM_XI5\<1\>\/Mnmos_b_g N_GND!_XI5\<1\>\/Mnmos_s \
+ N_GND!_XI5\<1\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=1.406e-13 pd=1.12e-06 ps=2.66e-06
+mXI5\<0\>\/Mnmos_b ( N_XI5\<0\>\/SRAM_B_XI5\<0\>\/Mnmos_b_d \
+ N_XI5\<0\>\/SRAM_XI5\<0\>\/Mnmos_b_g N_GND!_XI5\<1\>\/Mnmos_s \
+ N_GND!_XI5\<1\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=1.406e-13 pd=1.12e-06 ps=2.66e-06
+mXtgate\<0\>\/MNMOS ( N_BL_I_B\<0\>_Xtgate\<0\>\/MNMOS_d \
+ N_A\<0\>_Xtgate\<0\>\/MNMOS_g N_BL_B\<0\>_Xtgate\<0\>\/MNMOS_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI5\<15\>\/Maccess_b ( N_BL_I_B\<0\>_XI5\<15\>\/Maccess_b_d \
+ N_WL_INV\<15\>_XI5\<15\>\/Maccess_b_g \
+ N_XI5\<15\>\/SRAM_B_XI5\<15\>\/Mnmos_b_d N_GND!_XI5\<15\>\/Maccess_b ) \
+ NMOS_VTL l=5e-08 w=1.25e-07 ad=4.625e-14 as=7.0875e-14 pd=9.9e-07 ps=1.12e-06
+mXI5\<14\>\/Maccess_b ( N_BL_I_B\<0\>_XI5\<15\>\/Maccess_b_d \
+ N_WL_INV\<14\>_XI5\<14\>\/Maccess_b_g \
+ N_XI5\<14\>\/SRAM_B_XI5\<14\>\/Mnmos_b_d N_GND!_XI5\<15\>\/Maccess_b ) \
+ NMOS_VTL l=5e-08 w=1.25e-07 ad=4.625e-14 as=7.0875e-14 pd=9.9e-07 ps=1.12e-06
+mXI5\<13\>\/Maccess_b ( N_BL_I_B\<0\>_XI5\<13\>\/Maccess_b_d \
+ N_WL_INV\<13\>_XI5\<13\>\/Maccess_b_g \
+ N_XI5\<13\>\/SRAM_B_XI5\<13\>\/Mnmos_b_d N_GND!_XI5\<13\>\/Maccess_b ) \
+ NMOS_VTL l=5e-08 w=1.25e-07 ad=4.625e-14 as=7.0875e-14 pd=9.9e-07 ps=1.12e-06
+mXI5\<12\>\/Maccess_b ( N_BL_I_B\<0\>_XI5\<13\>\/Maccess_b_d \
+ N_WL_INV\<12\>_XI5\<12\>\/Maccess_b_g \
+ N_XI5\<12\>\/SRAM_B_XI5\<12\>\/Mnmos_b_d N_GND!_XI5\<13\>\/Maccess_b ) \
+ NMOS_VTL l=5e-08 w=1.25e-07 ad=4.625e-14 as=7.0875e-14 pd=9.9e-07 ps=1.12e-06
+mXI5\<11\>\/Maccess_b ( N_BL_I_B\<0\>_XI5\<11\>\/Maccess_b_d \
+ N_WL_INV\<11\>_XI5\<11\>\/Maccess_b_g \
+ N_XI5\<11\>\/SRAM_B_XI5\<11\>\/Mnmos_b_d N_GND!_XI5\<11\>\/Maccess_b ) \
+ NMOS_VTL l=5e-08 w=1.25e-07 ad=4.625e-14 as=7.0875e-14 pd=9.9e-07 ps=1.12e-06
+mXI5\<10\>\/Maccess_b ( N_BL_I_B\<0\>_XI5\<11\>\/Maccess_b_d \
+ N_WL_INV\<10\>_XI5\<10\>\/Maccess_b_g \
+ N_XI5\<10\>\/SRAM_B_XI5\<10\>\/Mnmos_b_d N_GND!_XI5\<11\>\/Maccess_b ) \
+ NMOS_VTL l=5e-08 w=1.25e-07 ad=4.625e-14 as=7.0875e-14 pd=9.9e-07 ps=1.12e-06
+mXI5\<9\>\/Maccess_b ( N_BL_I_B\<0\>_XI5\<9\>\/Maccess_b_d \
+ N_WL_INV\<9\>_XI5\<9\>\/Maccess_b_g N_XI5\<9\>\/SRAM_B_XI5\<9\>\/Mnmos_b_d \
+ N_GND!_XI5\<9\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=4.625e-14 \
+ as=7.0875e-14 pd=9.9e-07 ps=1.12e-06
+mXI5\<8\>\/Maccess_b ( N_BL_I_B\<0\>_XI5\<9\>\/Maccess_b_d \
+ N_WL_INV\<8\>_XI5\<8\>\/Maccess_b_g N_XI5\<8\>\/SRAM_B_XI5\<8\>\/Mnmos_b_d \
+ N_GND!_XI5\<9\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=4.625e-14 \
+ as=7.0875e-14 pd=9.9e-07 ps=1.12e-06
+mXI5\<7\>\/Maccess_b ( N_BL_I_B\<0\>_XI5\<7\>\/Maccess_b_d \
+ N_WL_INV\<7\>_XI5\<7\>\/Maccess_b_g N_XI5\<7\>\/SRAM_B_XI5\<7\>\/Mnmos_b_d \
+ N_GND!_XI5\<7\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=4.625e-14 \
+ as=7.0875e-14 pd=9.9e-07 ps=1.12e-06
+mXI5\<6\>\/Maccess_b ( N_BL_I_B\<0\>_XI5\<7\>\/Maccess_b_d \
+ N_WL_INV\<6\>_XI5\<6\>\/Maccess_b_g N_XI5\<6\>\/SRAM_B_XI5\<6\>\/Mnmos_b_d \
+ N_GND!_XI5\<7\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=4.625e-14 \
+ as=7.0875e-14 pd=9.9e-07 ps=1.12e-06
+mXI5\<5\>\/Maccess_b ( N_BL_I_B\<0\>_XI5\<5\>\/Maccess_b_d \
+ N_WL_INV\<5\>_XI5\<5\>\/Maccess_b_g N_XI5\<5\>\/SRAM_B_XI5\<5\>\/Mnmos_b_d \
+ N_GND!_XI5\<5\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=4.625e-14 \
+ as=7.0875e-14 pd=9.9e-07 ps=1.12e-06
+mXI5\<4\>\/Maccess_b ( N_BL_I_B\<0\>_XI5\<5\>\/Maccess_b_d \
+ N_WL_INV\<4\>_XI5\<4\>\/Maccess_b_g N_XI5\<4\>\/SRAM_B_XI5\<4\>\/Mnmos_b_d \
+ N_GND!_XI5\<5\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=4.625e-14 \
+ as=7.0875e-14 pd=9.9e-07 ps=1.12e-06
+mXI5\<3\>\/Maccess_b ( N_BL_I_B\<0\>_XI5\<3\>\/Maccess_b_d \
+ N_WL_INV\<3\>_XI5\<3\>\/Maccess_b_g N_XI5\<3\>\/SRAM_B_XI5\<3\>\/Mnmos_b_d \
+ N_GND!_XI5\<3\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=4.625e-14 \
+ as=7.0875e-14 pd=9.9e-07 ps=1.12e-06
+mXI5\<2\>\/Maccess_b ( N_BL_I_B\<0\>_XI5\<3\>\/Maccess_b_d \
+ N_WL_INV\<2\>_XI5\<2\>\/Maccess_b_g N_XI5\<2\>\/SRAM_B_XI5\<2\>\/Mnmos_b_d \
+ N_GND!_XI5\<3\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=4.625e-14 \
+ as=7.0875e-14 pd=9.9e-07 ps=1.12e-06
+mXI5\<1\>\/Maccess_b ( N_BL_I_B\<0\>_XI5\<1\>\/Maccess_b_d \
+ N_WL_INV\<1\>_XI5\<1\>\/Maccess_b_g N_XI5\<1\>\/SRAM_B_XI5\<1\>\/Mnmos_b_d \
+ N_GND!_XI5\<1\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=4.625e-14 \
+ as=7.0875e-14 pd=9.9e-07 ps=1.12e-06
+mXI5\<0\>\/Maccess_b ( N_BL_I_B\<0\>_XI5\<1\>\/Maccess_b_d \
+ N_WL_INV\<0\>_XI5\<0\>\/Maccess_b_g N_XI5\<0\>\/SRAM_B_XI5\<0\>\/Mnmos_b_d \
+ N_GND!_XI5\<1\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=4.625e-14 \
+ as=7.0875e-14 pd=9.9e-07 ps=1.12e-06
+mXI0\<0\>\/Maccess_b ( N_BL_I_B\<1\>_XI0\<0\>\/Maccess_b_d \
+ N_WL_INV\<15\>_XI0\<0\>\/Maccess_b_g N_XI0\<0\>\/SRAM_B_XI0\<0\>\/Maccess_b_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.75e-14 \
+ as=7.0875e-14 pd=6.9e-07 ps=1.12e-06
+mXtgate\<1\>\/MNMOS ( N_BL_I_B\<1\>_Xtgate\<1\>\/MNMOS_d \
+ N_A\<0\>_Xtgate\<1\>\/MNMOS_g N_BL_B\<1\>_Xtgate\<1\>\/MNMOS_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<0\>\/Mnmos_b ( N_XI0\<0\>\/SRAM_B_XI0\<0\>\/Maccess_b_s \
+ N_XI0\<0\>\/SRAM_XI0\<0\>\/Mnmos_b_g N_GND!_XI0\<0\>\/Mnmos_b_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=7.3675e-14 pd=1.12e-06 ps=1.495e-06
+mXI0\<0\>\/Mnmos ( N_XI0\<0\>\/SRAM_XI0\<0\>\/Mnmos_d \
+ N_XI0\<0\>\/SRAM_B_XI0\<0\>\/Mnmos_g N_GND!_XI0\<0\>\/Mnmos_b_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=7.3675e-14 pd=1.095e-06 ps=1.495e-06
+mXtgate\<1\>\/MM0 ( N_BL_I\<1\>_Xtgate\<1\>\/MM0_d N_A\<0\>_Xtgate\<1\>\/MM0_g \
+ N_BL\<1\>_Xtgate\<1\>\/MM0_s N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 \
+ w=1.35e-07 ad=2.0925e-14 as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<0\>\/Maccess ( N_BL_I\<1\>_XI0\<0\>\/Maccess_d \
+ N_WL_INV\<15\>_XI0\<0\>\/Maccess_g N_XI0\<0\>\/SRAM_XI0\<0\>\/Mnmos_d \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.78125e-14 \
+ as=6.79375e-14 pd=6.95e-07 ps=1.095e-06
+mXI0\<1\>\/Maccess ( N_BL_I\<2\>_XI0\<1\>\/Maccess_d \
+ N_WL_INV\<15\>_XI0\<1\>\/Maccess_g N_XI0\<1\>\/SRAM_XI0\<1\>\/Maccess_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.78125e-14 \
+ as=6.79375e-14 pd=6.95e-07 ps=1.095e-06
+mXtgate\<2\>\/MM0 ( N_BL_I\<2\>_Xtgate\<2\>\/MM0_d N_A\<0\>_Xtgate\<2\>\/MM0_g \
+ N_BL\<2\>_Xtgate\<2\>\/MM0_s N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 \
+ w=1.35e-07 ad=2.0925e-14 as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<1\>\/Mnmos ( N_XI0\<1\>\/SRAM_XI0\<1\>\/Maccess_s \
+ N_XI0\<1\>\/SRAM_B_XI0\<1\>\/Mnmos_g N_GND!_XI0\<1\>\/Mnmos_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=7.3675e-14 pd=1.095e-06 ps=1.495e-06
+mXI0\<1\>\/Mnmos_b ( N_XI0\<1\>\/SRAM_B_XI0\<1\>\/Mnmos_b_d \
+ N_XI0\<1\>\/SRAM_XI0\<1\>\/Mnmos_b_g N_GND!_XI0\<1\>\/Mnmos_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=7.3675e-14 pd=1.12e-06 ps=1.495e-06
+mXtgate\<2\>\/MNMOS ( N_BL_I_B\<2\>_Xtgate\<2\>\/MNMOS_d \
+ N_A\<0\>_Xtgate\<2\>\/MNMOS_g N_BL_B\<2\>_Xtgate\<2\>\/MNMOS_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<1\>\/Maccess_b ( N_BL_I_B\<2\>_XI0\<1\>\/Maccess_b_d \
+ N_WL_INV\<15\>_XI0\<1\>\/Maccess_b_g N_XI0\<1\>\/SRAM_B_XI0\<1\>\/Mnmos_b_d \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.75e-14 \
+ as=7.0875e-14 pd=6.9e-07 ps=1.12e-06
+mXI0\<2\>\/Maccess_b ( N_BL_I_B\<3\>_XI0\<2\>\/Maccess_b_d \
+ N_WL_INV\<15\>_XI0\<2\>\/Maccess_b_g N_XI0\<2\>\/SRAM_B_XI0\<2\>\/Maccess_b_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.75e-14 \
+ as=7.0875e-14 pd=6.9e-07 ps=1.12e-06
+mXtgate\<3\>\/MNMOS ( N_BL_I_B\<3\>_Xtgate\<3\>\/MNMOS_d \
+ N_A\<0\>_Xtgate\<3\>\/MNMOS_g N_BL_B\<3\>_Xtgate\<3\>\/MNMOS_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<2\>\/Mnmos_b ( N_XI0\<2\>\/SRAM_B_XI0\<2\>\/Maccess_b_s \
+ N_XI0\<2\>\/SRAM_XI0\<2\>\/Mnmos_b_g N_GND!_XI0\<2\>\/Mnmos_b_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=7.3675e-14 pd=1.12e-06 ps=1.495e-06
+mXI0\<2\>\/Mnmos ( N_XI0\<2\>\/SRAM_XI0\<2\>\/Mnmos_d \
+ N_XI0\<2\>\/SRAM_B_XI0\<2\>\/Mnmos_g N_GND!_XI0\<2\>\/Mnmos_b_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=7.3675e-14 pd=1.095e-06 ps=1.495e-06
+mXtgate\<3\>\/MM0 ( N_BL_I\<3\>_Xtgate\<3\>\/MM0_d N_A\<0\>_Xtgate\<3\>\/MM0_g \
+ N_BL\<3\>_Xtgate\<3\>\/MM0_s N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 \
+ w=1.35e-07 ad=2.0925e-14 as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<2\>\/Maccess ( N_BL_I\<3\>_XI0\<2\>\/Maccess_d \
+ N_WL_INV\<15\>_XI0\<2\>\/Maccess_g N_XI0\<2\>\/SRAM_XI0\<2\>\/Mnmos_d \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.78125e-14 \
+ as=6.79375e-14 pd=6.95e-07 ps=1.095e-06
+mXI0\<3\>\/Maccess ( N_BL_I\<4\>_XI0\<3\>\/Maccess_d \
+ N_WL_INV\<15\>_XI0\<3\>\/Maccess_g N_XI0\<3\>\/SRAM_XI0\<3\>\/Maccess_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.78125e-14 \
+ as=6.79375e-14 pd=6.95e-07 ps=1.095e-06
+mXtgate\<4\>\/MM0 ( N_BL_I\<4\>_Xtgate\<4\>\/MM0_d N_A\<0\>_Xtgate\<4\>\/MM0_g \
+ N_BL\<4\>_Xtgate\<4\>\/MM0_s N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 \
+ w=1.35e-07 ad=2.0925e-14 as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<3\>\/Mnmos ( N_XI0\<3\>\/SRAM_XI0\<3\>\/Maccess_s \
+ N_XI0\<3\>\/SRAM_B_XI0\<3\>\/Mnmos_g N_GND!_XI0\<3\>\/Mnmos_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=7.3675e-14 pd=1.095e-06 ps=1.495e-06
+mXI0\<3\>\/Mnmos_b ( N_XI0\<3\>\/SRAM_B_XI0\<3\>\/Mnmos_b_d \
+ N_XI0\<3\>\/SRAM_XI0\<3\>\/Mnmos_b_g N_GND!_XI0\<3\>\/Mnmos_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=7.3675e-14 pd=1.12e-06 ps=1.495e-06
+mXtgate\<4\>\/MNMOS ( N_BL_I_B\<4\>_Xtgate\<4\>\/MNMOS_d \
+ N_A\<0\>_Xtgate\<4\>\/MNMOS_g N_BL_B\<4\>_Xtgate\<4\>\/MNMOS_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<3\>\/Maccess_b ( N_BL_I_B\<4\>_XI0\<3\>\/Maccess_b_d \
+ N_WL_INV\<15\>_XI0\<3\>\/Maccess_b_g N_XI0\<3\>\/SRAM_B_XI0\<3\>\/Mnmos_b_d \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.75e-14 \
+ as=7.0875e-14 pd=6.9e-07 ps=1.12e-06
+mXI0\<4\>\/Maccess_b ( N_BL_I_B\<5\>_XI0\<4\>\/Maccess_b_d \
+ N_WL_INV\<15\>_XI0\<4\>\/Maccess_b_g N_XI0\<4\>\/SRAM_B_XI0\<4\>\/Maccess_b_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.75e-14 \
+ as=7.0875e-14 pd=6.9e-07 ps=1.12e-06
+mXtgate\<5\>\/MNMOS ( N_BL_I_B\<5\>_Xtgate\<5\>\/MNMOS_d \
+ N_A\<0\>_Xtgate\<5\>\/MNMOS_g N_BL_B\<5\>_Xtgate\<5\>\/MNMOS_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<4\>\/Mnmos_b ( N_XI0\<4\>\/SRAM_B_XI0\<4\>\/Maccess_b_s \
+ N_XI0\<4\>\/SRAM_XI0\<4\>\/Mnmos_b_g N_GND!_XI0\<4\>\/Mnmos_b_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=7.3675e-14 pd=1.12e-06 ps=1.495e-06
+mXI0\<4\>\/Mnmos ( N_XI0\<4\>\/SRAM_XI0\<4\>\/Mnmos_d \
+ N_XI0\<4\>\/SRAM_B_XI0\<4\>\/Mnmos_g N_GND!_XI0\<4\>\/Mnmos_b_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=7.3675e-14 pd=1.095e-06 ps=1.495e-06
+mXtgate\<5\>\/MM0 ( N_BL_I\<5\>_Xtgate\<5\>\/MM0_d N_A\<0\>_Xtgate\<5\>\/MM0_g \
+ N_BL\<5\>_Xtgate\<5\>\/MM0_s N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 \
+ w=1.35e-07 ad=2.0925e-14 as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<4\>\/Maccess ( N_BL_I\<5\>_XI0\<4\>\/Maccess_d \
+ N_WL_INV\<15\>_XI0\<4\>\/Maccess_g N_XI0\<4\>\/SRAM_XI0\<4\>\/Mnmos_d \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.78125e-14 \
+ as=6.79375e-14 pd=6.95e-07 ps=1.095e-06
+mXI0\<5\>\/Maccess ( N_BL_I\<6\>_XI0\<5\>\/Maccess_d \
+ N_WL_INV\<15\>_XI0\<5\>\/Maccess_g N_XI0\<5\>\/SRAM_XI0\<5\>\/Maccess_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.78125e-14 \
+ as=6.79375e-14 pd=6.95e-07 ps=1.095e-06
+mXtgate\<6\>\/MM0 ( N_BL_I\<6\>_Xtgate\<6\>\/MM0_d N_A\<0\>_Xtgate\<6\>\/MM0_g \
+ N_BL\<6\>_Xtgate\<6\>\/MM0_s N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 \
+ w=1.35e-07 ad=2.0925e-14 as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<5\>\/Mnmos ( N_XI0\<5\>\/SRAM_XI0\<5\>\/Maccess_s \
+ N_XI0\<5\>\/SRAM_B_XI0\<5\>\/Mnmos_g N_GND!_XI0\<5\>\/Mnmos_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=7.3675e-14 pd=1.095e-06 ps=1.495e-06
+mXI0\<5\>\/Mnmos_b ( N_XI0\<5\>\/SRAM_B_XI0\<5\>\/Mnmos_b_d \
+ N_XI0\<5\>\/SRAM_XI0\<5\>\/Mnmos_b_g N_GND!_XI0\<5\>\/Mnmos_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=7.3675e-14 pd=1.12e-06 ps=1.495e-06
+mXtgate\<6\>\/MNMOS ( N_BL_I_B\<6\>_Xtgate\<6\>\/MNMOS_d \
+ N_A\<0\>_Xtgate\<6\>\/MNMOS_g N_BL_B\<6\>_Xtgate\<6\>\/MNMOS_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<5\>\/Maccess_b ( N_BL_I_B\<6\>_XI0\<5\>\/Maccess_b_d \
+ N_WL_INV\<15\>_XI0\<5\>\/Maccess_b_g N_XI0\<5\>\/SRAM_B_XI0\<5\>\/Mnmos_b_d \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.75e-14 \
+ as=7.0875e-14 pd=6.9e-07 ps=1.12e-06
+mXI0\<6\>\/Maccess_b ( N_BL_I_B\<7\>_XI0\<6\>\/Maccess_b_d \
+ N_WL_INV\<15\>_XI0\<6\>\/Maccess_b_g N_XI0\<6\>\/SRAM_B_XI0\<6\>\/Maccess_b_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.75e-14 \
+ as=7.0875e-14 pd=6.9e-07 ps=1.12e-06
+mXtgate\<7\>\/MNMOS ( N_BL_I_B\<7\>_Xtgate\<7\>\/MNMOS_d \
+ N_A\<0\>_Xtgate\<7\>\/MNMOS_g N_BL_B\<7\>_Xtgate\<7\>\/MNMOS_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<6\>\/Mnmos_b ( N_XI0\<6\>\/SRAM_B_XI0\<6\>\/Maccess_b_s \
+ N_XI0\<6\>\/SRAM_XI0\<6\>\/Mnmos_b_g N_GND!_XI0\<6\>\/Mnmos_b_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=7.3675e-14 pd=1.12e-06 ps=1.495e-06
+mXI0\<6\>\/Mnmos ( N_XI0\<6\>\/SRAM_XI0\<6\>\/Mnmos_d \
+ N_XI0\<6\>\/SRAM_B_XI0\<6\>\/Mnmos_g N_GND!_XI0\<6\>\/Mnmos_b_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=7.3675e-14 pd=1.095e-06 ps=1.495e-06
+mXtgate\<7\>\/MM0 ( N_BL_I\<7\>_Xtgate\<7\>\/MM0_d N_A\<0\>_Xtgate\<7\>\/MM0_g \
+ N_BL\<7\>_Xtgate\<7\>\/MM0_s N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 \
+ w=1.35e-07 ad=2.0925e-14 as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<6\>\/Maccess ( N_BL_I\<7\>_XI0\<6\>\/Maccess_d \
+ N_WL_INV\<15\>_XI0\<6\>\/Maccess_g N_XI0\<6\>\/SRAM_XI0\<6\>\/Mnmos_d \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.78125e-14 \
+ as=6.79375e-14 pd=6.95e-07 ps=1.095e-06
+mXI0\<7\>\/Maccess ( N_BL_I\<8\>_XI0\<7\>\/Maccess_d \
+ N_WL_INV\<15\>_XI0\<7\>\/Maccess_g N_XI0\<7\>\/SRAM_XI0\<7\>\/Maccess_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.78125e-14 \
+ as=6.79375e-14 pd=6.95e-07 ps=1.095e-06
+mXtgate\<8\>\/MM0 ( N_BL_I\<8\>_Xtgate\<8\>\/MM0_d N_A\<1\>_Xtgate\<8\>\/MM0_g \
+ N_BL\<8\>_Xtgate\<8\>\/MM0_s N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 \
+ w=1.35e-07 ad=2.0925e-14 as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<7\>\/Mnmos ( N_XI0\<7\>\/SRAM_XI0\<7\>\/Maccess_s \
+ N_XI0\<7\>\/SRAM_B_XI0\<7\>\/Mnmos_g N_GND!_XI0\<7\>\/Mnmos_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=7.3675e-14 pd=1.095e-06 ps=1.495e-06
+mXI0\<7\>\/Mnmos_b ( N_XI0\<7\>\/SRAM_B_XI0\<7\>\/Mnmos_b_d \
+ N_XI0\<7\>\/SRAM_XI0\<7\>\/Mnmos_b_g N_GND!_XI0\<7\>\/Mnmos_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=7.3675e-14 pd=1.12e-06 ps=1.495e-06
+mXtgate\<8\>\/MNMOS ( N_BL_I_B\<8\>_Xtgate\<8\>\/MNMOS_d \
+ N_A\<1\>_Xtgate\<8\>\/MNMOS_g N_BL_B\<8\>_Xtgate\<8\>\/MNMOS_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<7\>\/Maccess_b ( N_BL_I_B\<8\>_XI0\<7\>\/Maccess_b_d \
+ N_WL_INV\<15\>_XI0\<7\>\/Maccess_b_g N_XI0\<7\>\/SRAM_B_XI0\<7\>\/Mnmos_b_d \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.75e-14 \
+ as=7.0875e-14 pd=6.9e-07 ps=1.12e-06
+mXI0\<8\>\/Maccess_b ( N_BL_I_B\<9\>_XI0\<8\>\/Maccess_b_d \
+ N_WL_INV\<15\>_XI0\<8\>\/Maccess_b_g N_XI0\<8\>\/SRAM_B_XI0\<8\>\/Maccess_b_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.75e-14 \
+ as=7.0875e-14 pd=6.9e-07 ps=1.12e-06
+mXtgate\<9\>\/MNMOS ( N_BL_I_B\<9\>_Xtgate\<9\>\/MNMOS_d \
+ N_A\<1\>_Xtgate\<9\>\/MNMOS_g N_BL_B\<9\>_Xtgate\<9\>\/MNMOS_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<8\>\/Mnmos_b ( N_XI0\<8\>\/SRAM_B_XI0\<8\>\/Maccess_b_s \
+ N_XI0\<8\>\/SRAM_XI0\<8\>\/Mnmos_b_g N_GND!_XI0\<8\>\/Mnmos_b_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=7.3675e-14 pd=1.12e-06 ps=1.495e-06
+mXI0\<8\>\/Mnmos ( N_XI0\<8\>\/SRAM_XI0\<8\>\/Mnmos_d \
+ N_XI0\<8\>\/SRAM_B_XI0\<8\>\/Mnmos_g N_GND!_XI0\<8\>\/Mnmos_b_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=7.3675e-14 pd=1.095e-06 ps=1.495e-06
+mXtgate\<9\>\/MM0 ( N_BL_I\<9\>_Xtgate\<9\>\/MM0_d N_A\<1\>_Xtgate\<9\>\/MM0_g \
+ N_BL\<9\>_Xtgate\<9\>\/MM0_s N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 \
+ w=1.35e-07 ad=2.0925e-14 as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<8\>\/Maccess ( N_BL_I\<9\>_XI0\<8\>\/Maccess_d \
+ N_WL_INV\<15\>_XI0\<8\>\/Maccess_g N_XI0\<8\>\/SRAM_XI0\<8\>\/Mnmos_d \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.78125e-14 \
+ as=6.79375e-14 pd=6.95e-07 ps=1.095e-06
+mXI0\<9\>\/Maccess ( N_BL_I\<10\>_XI0\<9\>\/Maccess_d \
+ N_WL_INV\<15\>_XI0\<9\>\/Maccess_g N_XI0\<9\>\/SRAM_XI0\<9\>\/Maccess_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.78125e-14 \
+ as=6.79375e-14 pd=6.95e-07 ps=1.095e-06
+mXtgate\<10\>\/MM0 ( N_BL_I\<10\>_Xtgate\<10\>\/MM0_d \
+ N_A\<1\>_Xtgate\<10\>\/MM0_g N_BL\<10\>_Xtgate\<10\>\/MM0_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<9\>\/Mnmos ( N_XI0\<9\>\/SRAM_XI0\<9\>\/Maccess_s \
+ N_XI0\<9\>\/SRAM_B_XI0\<9\>\/Mnmos_g N_GND!_XI0\<9\>\/Mnmos_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=7.3675e-14 pd=1.095e-06 ps=1.495e-06
+mXI0\<9\>\/Mnmos_b ( N_XI0\<9\>\/SRAM_B_XI0\<9\>\/Mnmos_b_d \
+ N_XI0\<9\>\/SRAM_XI0\<9\>\/Mnmos_b_g N_GND!_XI0\<9\>\/Mnmos_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=7.3675e-14 pd=1.12e-06 ps=1.495e-06
+mXtgate\<10\>\/MNMOS ( N_BL_I_B\<10\>_Xtgate\<10\>\/MNMOS_d \
+ N_A\<1\>_Xtgate\<10\>\/MNMOS_g N_BL_B\<10\>_Xtgate\<10\>\/MNMOS_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<9\>\/Maccess_b ( N_BL_I_B\<10\>_XI0\<9\>\/Maccess_b_d \
+ N_WL_INV\<15\>_XI0\<9\>\/Maccess_b_g N_XI0\<9\>\/SRAM_B_XI0\<9\>\/Mnmos_b_d \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.75e-14 \
+ as=7.0875e-14 pd=6.9e-07 ps=1.12e-06
+mXI0\<10\>\/Maccess_b ( N_BL_I_B\<11\>_XI0\<10\>\/Maccess_b_d \
+ N_WL_INV\<15\>_XI0\<10\>\/Maccess_b_g \
+ N_XI0\<10\>\/SRAM_B_XI0\<10\>\/Maccess_b_s N_GND!_XI5\<15\>\/Maccess_b ) \
+ NMOS_VTL l=5e-08 w=1.25e-07 ad=2.75e-14 as=7.0875e-14 pd=6.9e-07 ps=1.12e-06
+mXtgate\<11\>\/MNMOS ( N_BL_I_B\<11\>_Xtgate\<11\>\/MNMOS_d \
+ N_A\<1\>_Xtgate\<11\>\/MNMOS_g N_BL_B\<11\>_Xtgate\<11\>\/MNMOS_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<10\>\/Mnmos_b ( N_XI0\<10\>\/SRAM_B_XI0\<10\>\/Maccess_b_s \
+ N_XI0\<10\>\/SRAM_XI0\<10\>\/Mnmos_b_g N_GND!_XI0\<10\>\/Mnmos_b_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=7.3675e-14 pd=1.12e-06 ps=1.495e-06
+mXI0\<10\>\/Mnmos ( N_XI0\<10\>\/SRAM_XI0\<10\>\/Mnmos_d \
+ N_XI0\<10\>\/SRAM_B_XI0\<10\>\/Mnmos_g N_GND!_XI0\<10\>\/Mnmos_b_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=7.3675e-14 pd=1.095e-06 ps=1.495e-06
+mXtgate\<11\>\/MM0 ( N_BL_I\<11\>_Xtgate\<11\>\/MM0_d \
+ N_A\<1\>_Xtgate\<11\>\/MM0_g N_BL\<11\>_Xtgate\<11\>\/MM0_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<10\>\/Maccess ( N_BL_I\<11\>_XI0\<10\>\/Maccess_d \
+ N_WL_INV\<15\>_XI0\<10\>\/Maccess_g N_XI0\<10\>\/SRAM_XI0\<10\>\/Mnmos_d \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.78125e-14 \
+ as=6.79375e-14 pd=6.95e-07 ps=1.095e-06
+mXI0\<11\>\/Maccess ( N_BL_I\<12\>_XI0\<11\>\/Maccess_d \
+ N_WL_INV\<15\>_XI0\<11\>\/Maccess_g N_XI0\<11\>\/SRAM_XI0\<11\>\/Maccess_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.78125e-14 \
+ as=6.79375e-14 pd=6.95e-07 ps=1.095e-06
+mXtgate\<12\>\/MM0 ( N_BL_I\<12\>_Xtgate\<12\>\/MM0_d \
+ N_A\<1\>_Xtgate\<12\>\/MM0_g N_BL\<12\>_Xtgate\<12\>\/MM0_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<11\>\/Mnmos ( N_XI0\<11\>\/SRAM_XI0\<11\>\/Maccess_s \
+ N_XI0\<11\>\/SRAM_B_XI0\<11\>\/Mnmos_g N_GND!_XI0\<11\>\/Mnmos_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=7.3675e-14 pd=1.095e-06 ps=1.495e-06
+mXI0\<11\>\/Mnmos_b ( N_XI0\<11\>\/SRAM_B_XI0\<11\>\/Mnmos_b_d \
+ N_XI0\<11\>\/SRAM_XI0\<11\>\/Mnmos_b_g N_GND!_XI0\<11\>\/Mnmos_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=7.3675e-14 pd=1.12e-06 ps=1.495e-06
+mXtgate\<12\>\/MNMOS ( N_BL_I_B\<12\>_Xtgate\<12\>\/MNMOS_d \
+ N_A\<1\>_Xtgate\<12\>\/MNMOS_g N_BL_B\<12\>_Xtgate\<12\>\/MNMOS_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<11\>\/Maccess_b ( N_BL_I_B\<12\>_XI0\<11\>\/Maccess_b_d \
+ N_WL_INV\<15\>_XI0\<11\>\/Maccess_b_g \
+ N_XI0\<11\>\/SRAM_B_XI0\<11\>\/Mnmos_b_d N_GND!_XI5\<15\>\/Maccess_b ) \
+ NMOS_VTL l=5e-08 w=1.25e-07 ad=2.75e-14 as=7.0875e-14 pd=6.9e-07 ps=1.12e-06
+mXI0\<12\>\/Maccess_b ( N_BL_I_B\<13\>_XI0\<12\>\/Maccess_b_d \
+ N_WL_INV\<15\>_XI0\<12\>\/Maccess_b_g \
+ N_XI0\<12\>\/SRAM_B_XI0\<12\>\/Maccess_b_s N_GND!_XI5\<15\>\/Maccess_b ) \
+ NMOS_VTL l=5e-08 w=1.25e-07 ad=2.75e-14 as=7.0875e-14 pd=6.9e-07 ps=1.12e-06
+mXtgate\<13\>\/MNMOS ( N_BL_I_B\<13\>_Xtgate\<13\>\/MNMOS_d \
+ N_A\<1\>_Xtgate\<13\>\/MNMOS_g N_BL_B\<13\>_Xtgate\<13\>\/MNMOS_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<12\>\/Mnmos_b ( N_XI0\<12\>\/SRAM_B_XI0\<12\>\/Maccess_b_s \
+ N_XI0\<12\>\/SRAM_XI0\<12\>\/Mnmos_b_g N_GND!_XI0\<12\>\/Mnmos_b_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=7.3675e-14 pd=1.12e-06 ps=1.495e-06
+mXI0\<12\>\/Mnmos ( N_XI0\<12\>\/SRAM_XI0\<12\>\/Mnmos_d \
+ N_XI0\<12\>\/SRAM_B_XI0\<12\>\/Mnmos_g N_GND!_XI0\<12\>\/Mnmos_b_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=7.3675e-14 pd=1.095e-06 ps=1.495e-06
+mXtgate\<13\>\/MM0 ( N_BL_I\<13\>_Xtgate\<13\>\/MM0_d \
+ N_A\<1\>_Xtgate\<13\>\/MM0_g N_BL\<13\>_Xtgate\<13\>\/MM0_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<12\>\/Maccess ( N_BL_I\<13\>_XI0\<12\>\/Maccess_d \
+ N_WL_INV\<15\>_XI0\<12\>\/Maccess_g N_XI0\<12\>\/SRAM_XI0\<12\>\/Mnmos_d \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.78125e-14 \
+ as=6.79375e-14 pd=6.95e-07 ps=1.095e-06
+mXI0\<13\>\/Maccess ( N_BL_I\<14\>_XI0\<13\>\/Maccess_d \
+ N_WL_INV\<15\>_XI0\<13\>\/Maccess_g N_XI0\<13\>\/SRAM_XI0\<13\>\/Maccess_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.78125e-14 \
+ as=6.79375e-14 pd=6.95e-07 ps=1.095e-06
+mXtgate\<14\>\/MM0 ( N_BL_I\<14\>_Xtgate\<14\>\/MM0_d \
+ N_A\<1\>_Xtgate\<14\>\/MM0_g N_BL\<14\>_Xtgate\<14\>\/MM0_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<13\>\/Mnmos ( N_XI0\<13\>\/SRAM_XI0\<13\>\/Maccess_s \
+ N_XI0\<13\>\/SRAM_B_XI0\<13\>\/Mnmos_g N_GND!_XI0\<13\>\/Mnmos_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=7.3675e-14 pd=1.095e-06 ps=1.495e-06
+mXI0\<13\>\/Mnmos_b ( N_XI0\<13\>\/SRAM_B_XI0\<13\>\/Mnmos_b_d \
+ N_XI0\<13\>\/SRAM_XI0\<13\>\/Mnmos_b_g N_GND!_XI0\<13\>\/Mnmos_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=7.3675e-14 pd=1.12e-06 ps=1.495e-06
+mXtgate\<14\>\/MNMOS ( N_BL_I_B\<14\>_Xtgate\<14\>\/MNMOS_d \
+ N_A\<1\>_Xtgate\<14\>\/MNMOS_g N_BL_B\<14\>_Xtgate\<14\>\/MNMOS_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<13\>\/Maccess_b ( N_BL_I_B\<14\>_XI0\<13\>\/Maccess_b_d \
+ N_WL_INV\<15\>_XI0\<13\>\/Maccess_b_g \
+ N_XI0\<13\>\/SRAM_B_XI0\<13\>\/Mnmos_b_d N_GND!_XI5\<15\>\/Maccess_b ) \
+ NMOS_VTL l=5e-08 w=1.25e-07 ad=2.75e-14 as=7.0875e-14 pd=6.9e-07 ps=1.12e-06
+mXI0\<14\>\/Maccess_b ( N_BL_I_B\<15\>_XI0\<14\>\/Maccess_b_d \
+ N_WL_INV\<15\>_XI0\<14\>\/Maccess_b_g \
+ N_XI0\<14\>\/SRAM_B_XI0\<14\>\/Maccess_b_s N_GND!_XI5\<15\>\/Maccess_b ) \
+ NMOS_VTL l=5e-08 w=1.25e-07 ad=2.75e-14 as=7.0875e-14 pd=6.9e-07 ps=1.12e-06
+mXtgate\<15\>\/MNMOS ( N_BL_I_B\<15\>_Xtgate\<15\>\/MNMOS_d \
+ N_A\<1\>_Xtgate\<15\>\/MNMOS_g N_BL_B\<15\>_Xtgate\<15\>\/MNMOS_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<14\>\/Mnmos_b ( N_XI0\<14\>\/SRAM_B_XI0\<14\>\/Maccess_b_s \
+ N_XI0\<14\>\/SRAM_XI0\<14\>\/Mnmos_b_g N_GND!_XI0\<14\>\/Mnmos_b_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=7.3675e-14 pd=1.12e-06 ps=1.495e-06
+mXI0\<14\>\/Mnmos ( N_XI0\<14\>\/SRAM_XI0\<14\>\/Mnmos_d \
+ N_XI0\<14\>\/SRAM_B_XI0\<14\>\/Mnmos_g N_GND!_XI0\<14\>\/Mnmos_b_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=7.3675e-14 pd=1.095e-06 ps=1.495e-06
+mXtgate\<15\>\/MM0 ( N_BL_I\<15\>_Xtgate\<15\>\/MM0_d \
+ N_A\<1\>_Xtgate\<15\>\/MM0_g N_BL\<15\>_Xtgate\<15\>\/MM0_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<14\>\/Maccess ( N_BL_I\<15\>_XI0\<14\>\/Maccess_d \
+ N_WL_INV\<15\>_XI0\<14\>\/Maccess_g N_XI0\<14\>\/SRAM_XI0\<14\>\/Mnmos_d \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.78125e-14 \
+ as=6.79375e-14 pd=6.95e-07 ps=1.095e-06
+mXI0\<15\>\/Maccess ( N_BL_I\<16\>_XI0\<15\>\/Maccess_d \
+ N_WL_INV\<15\>_XI0\<15\>\/Maccess_g N_XI0\<15\>\/SRAM_XI0\<15\>\/Maccess_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.78125e-14 \
+ as=6.79375e-14 pd=6.95e-07 ps=1.095e-06
+mXtgate\<16\>\/MM0 ( N_BL_I\<16\>_Xtgate\<16\>\/MM0_d \
+ N_A\<2\>_Xtgate\<16\>\/MM0_g N_BL\<16\>_Xtgate\<16\>\/MM0_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<15\>\/Mnmos ( N_XI0\<15\>\/SRAM_XI0\<15\>\/Maccess_s \
+ N_XI0\<15\>\/SRAM_B_XI0\<15\>\/Mnmos_g N_GND!_XI0\<15\>\/Mnmos_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=7.3675e-14 pd=1.095e-06 ps=1.495e-06
+mXI0\<15\>\/Mnmos_b ( N_XI0\<15\>\/SRAM_B_XI0\<15\>\/Mnmos_b_d \
+ N_XI0\<15\>\/SRAM_XI0\<15\>\/Mnmos_b_g N_GND!_XI0\<15\>\/Mnmos_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=7.3675e-14 pd=1.12e-06 ps=1.495e-06
+mXtgate\<16\>\/MNMOS ( N_BL_I_B\<16\>_Xtgate\<16\>\/MNMOS_d \
+ N_A\<2\>_Xtgate\<16\>\/MNMOS_g N_BL_B\<16\>_Xtgate\<16\>\/MNMOS_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<15\>\/Maccess_b ( N_BL_I_B\<16\>_XI0\<15\>\/Maccess_b_d \
+ N_WL_INV\<15\>_XI0\<15\>\/Maccess_b_g \
+ N_XI0\<15\>\/SRAM_B_XI0\<15\>\/Mnmos_b_d N_GND!_XI5\<15\>\/Maccess_b ) \
+ NMOS_VTL l=5e-08 w=1.25e-07 ad=2.75e-14 as=7.0875e-14 pd=6.9e-07 ps=1.12e-06
+mXI0\<16\>\/Maccess_b ( N_BL_I_B\<17\>_XI0\<16\>\/Maccess_b_d \
+ N_WL_INV\<15\>_XI0\<16\>\/Maccess_b_g \
+ N_XI0\<16\>\/SRAM_B_XI0\<16\>\/Maccess_b_s N_GND!_XI5\<15\>\/Maccess_b ) \
+ NMOS_VTL l=5e-08 w=1.25e-07 ad=2.75e-14 as=7.0875e-14 pd=6.9e-07 ps=1.12e-06
+mXtgate\<17\>\/MNMOS ( N_BL_I_B\<17\>_Xtgate\<17\>\/MNMOS_d \
+ N_A\<2\>_Xtgate\<17\>\/MNMOS_g N_BL_B\<17\>_Xtgate\<17\>\/MNMOS_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<16\>\/Mnmos_b ( N_XI0\<16\>\/SRAM_B_XI0\<16\>\/Maccess_b_s \
+ N_XI0\<16\>\/SRAM_XI0\<16\>\/Mnmos_b_g N_GND!_XI0\<16\>\/Mnmos_b_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=7.3675e-14 pd=1.12e-06 ps=1.495e-06
+mXI0\<16\>\/Mnmos ( N_XI0\<16\>\/SRAM_XI0\<16\>\/Mnmos_d \
+ N_XI0\<16\>\/SRAM_B_XI0\<16\>\/Mnmos_g N_GND!_XI0\<16\>\/Mnmos_b_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=7.3675e-14 pd=1.095e-06 ps=1.495e-06
+mXtgate\<17\>\/MM0 ( N_BL_I\<17\>_Xtgate\<17\>\/MM0_d \
+ N_A\<2\>_Xtgate\<17\>\/MM0_g N_BL\<17\>_Xtgate\<17\>\/MM0_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<16\>\/Maccess ( N_BL_I\<17\>_XI0\<16\>\/Maccess_d \
+ N_WL_INV\<15\>_XI0\<16\>\/Maccess_g N_XI0\<16\>\/SRAM_XI0\<16\>\/Mnmos_d \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.78125e-14 \
+ as=6.79375e-14 pd=6.95e-07 ps=1.095e-06
+mXI0\<17\>\/Maccess ( N_BL_I\<18\>_XI0\<17\>\/Maccess_d \
+ N_WL_INV\<15\>_XI0\<17\>\/Maccess_g N_XI0\<17\>\/SRAM_XI0\<17\>\/Maccess_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.78125e-14 \
+ as=6.79375e-14 pd=6.95e-07 ps=1.095e-06
+mXtgate\<18\>\/MM0 ( N_BL_I\<18\>_Xtgate\<18\>\/MM0_d \
+ N_A\<2\>_Xtgate\<18\>\/MM0_g N_BL\<18\>_Xtgate\<18\>\/MM0_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<17\>\/Mnmos ( N_XI0\<17\>\/SRAM_XI0\<17\>\/Maccess_s \
+ N_XI0\<17\>\/SRAM_B_XI0\<17\>\/Mnmos_g N_GND!_XI0\<17\>\/Mnmos_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=7.3675e-14 pd=1.095e-06 ps=1.495e-06
+mXI0\<17\>\/Mnmos_b ( N_XI0\<17\>\/SRAM_B_XI0\<17\>\/Mnmos_b_d \
+ N_XI0\<17\>\/SRAM_XI0\<17\>\/Mnmos_b_g N_GND!_XI0\<17\>\/Mnmos_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=7.3675e-14 pd=1.12e-06 ps=1.495e-06
+mXtgate\<18\>\/MNMOS ( N_BL_I_B\<18\>_Xtgate\<18\>\/MNMOS_d \
+ N_A\<2\>_Xtgate\<18\>\/MNMOS_g N_BL_B\<18\>_Xtgate\<18\>\/MNMOS_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<17\>\/Maccess_b ( N_BL_I_B\<18\>_XI0\<17\>\/Maccess_b_d \
+ N_WL_INV\<15\>_XI0\<17\>\/Maccess_b_g \
+ N_XI0\<17\>\/SRAM_B_XI0\<17\>\/Mnmos_b_d N_GND!_XI5\<15\>\/Maccess_b ) \
+ NMOS_VTL l=5e-08 w=1.25e-07 ad=2.75e-14 as=7.0875e-14 pd=6.9e-07 ps=1.12e-06
+mXI0\<18\>\/Maccess_b ( N_BL_I_B\<19\>_XI0\<18\>\/Maccess_b_d \
+ N_WL_INV\<15\>_XI0\<18\>\/Maccess_b_g \
+ N_XI0\<18\>\/SRAM_B_XI0\<18\>\/Maccess_b_s N_GND!_XI5\<15\>\/Maccess_b ) \
+ NMOS_VTL l=5e-08 w=1.25e-07 ad=2.75e-14 as=7.0875e-14 pd=6.9e-07 ps=1.12e-06
+mXtgate\<19\>\/MNMOS ( N_BL_I_B\<19\>_Xtgate\<19\>\/MNMOS_d \
+ N_A\<2\>_Xtgate\<19\>\/MNMOS_g N_BL_B\<19\>_Xtgate\<19\>\/MNMOS_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<18\>\/Mnmos_b ( N_XI0\<18\>\/SRAM_B_XI0\<18\>\/Maccess_b_s \
+ N_XI0\<18\>\/SRAM_XI0\<18\>\/Mnmos_b_g N_GND!_XI0\<18\>\/Mnmos_b_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=7.3675e-14 pd=1.12e-06 ps=1.495e-06
+mXI0\<18\>\/Mnmos ( N_XI0\<18\>\/SRAM_XI0\<18\>\/Mnmos_d \
+ N_XI0\<18\>\/SRAM_B_XI0\<18\>\/Mnmos_g N_GND!_XI0\<18\>\/Mnmos_b_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=7.3675e-14 pd=1.095e-06 ps=1.495e-06
+mXtgate\<19\>\/MM0 ( N_BL_I\<19\>_Xtgate\<19\>\/MM0_d \
+ N_A\<2\>_Xtgate\<19\>\/MM0_g N_BL\<19\>_Xtgate\<19\>\/MM0_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<18\>\/Maccess ( N_BL_I\<19\>_XI0\<18\>\/Maccess_d \
+ N_WL_INV\<15\>_XI0\<18\>\/Maccess_g N_XI0\<18\>\/SRAM_XI0\<18\>\/Mnmos_d \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.78125e-14 \
+ as=6.79375e-14 pd=6.95e-07 ps=1.095e-06
+mXI0\<19\>\/Maccess ( N_BL_I\<20\>_XI0\<19\>\/Maccess_d \
+ N_WL_INV\<15\>_XI0\<19\>\/Maccess_g N_XI0\<19\>\/SRAM_XI0\<19\>\/Maccess_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.78125e-14 \
+ as=6.79375e-14 pd=6.95e-07 ps=1.095e-06
+mXtgate\<20\>\/MM0 ( N_BL_I\<20\>_Xtgate\<20\>\/MM0_d \
+ N_A\<2\>_Xtgate\<20\>\/MM0_g N_BL\<20\>_Xtgate\<20\>\/MM0_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<19\>\/Mnmos ( N_XI0\<19\>\/SRAM_XI0\<19\>\/Maccess_s \
+ N_XI0\<19\>\/SRAM_B_XI0\<19\>\/Mnmos_g N_GND!_XI0\<19\>\/Mnmos_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=7.3675e-14 pd=1.095e-06 ps=1.495e-06
+mXI0\<19\>\/Mnmos_b ( N_XI0\<19\>\/SRAM_B_XI0\<19\>\/Mnmos_b_d \
+ N_XI0\<19\>\/SRAM_XI0\<19\>\/Mnmos_b_g N_GND!_XI0\<19\>\/Mnmos_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=7.3675e-14 pd=1.12e-06 ps=1.495e-06
+mXtgate\<20\>\/MNMOS ( N_BL_I_B\<20\>_Xtgate\<20\>\/MNMOS_d \
+ N_A\<2\>_Xtgate\<20\>\/MNMOS_g N_BL_B\<20\>_Xtgate\<20\>\/MNMOS_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<19\>\/Maccess_b ( N_BL_I_B\<20\>_XI0\<19\>\/Maccess_b_d \
+ N_WL_INV\<15\>_XI0\<19\>\/Maccess_b_g \
+ N_XI0\<19\>\/SRAM_B_XI0\<19\>\/Mnmos_b_d N_GND!_XI5\<15\>\/Maccess_b ) \
+ NMOS_VTL l=5e-08 w=1.25e-07 ad=2.75e-14 as=7.0875e-14 pd=6.9e-07 ps=1.12e-06
+mXI0\<20\>\/Maccess_b ( N_BL_I_B\<21\>_XI0\<20\>\/Maccess_b_d \
+ N_WL_INV\<15\>_XI0\<20\>\/Maccess_b_g \
+ N_XI0\<20\>\/SRAM_B_XI0\<20\>\/Maccess_b_s N_GND!_XI5\<15\>\/Maccess_b ) \
+ NMOS_VTL l=5e-08 w=1.25e-07 ad=2.75e-14 as=7.0875e-14 pd=6.9e-07 ps=1.12e-06
+mXtgate\<21\>\/MNMOS ( N_BL_I_B\<21\>_Xtgate\<21\>\/MNMOS_d \
+ N_A\<2\>_Xtgate\<21\>\/MNMOS_g N_BL_B\<21\>_Xtgate\<21\>\/MNMOS_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<20\>\/Mnmos_b ( N_XI0\<20\>\/SRAM_B_XI0\<20\>\/Maccess_b_s \
+ N_XI0\<20\>\/SRAM_XI0\<20\>\/Mnmos_b_g N_GND!_XI0\<20\>\/Mnmos_b_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=7.3675e-14 pd=1.12e-06 ps=1.495e-06
+mXI0\<20\>\/Mnmos ( N_XI0\<20\>\/SRAM_XI0\<20\>\/Mnmos_d \
+ N_XI0\<20\>\/SRAM_B_XI0\<20\>\/Mnmos_g N_GND!_XI0\<20\>\/Mnmos_b_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=7.3675e-14 pd=1.095e-06 ps=1.495e-06
+mXtgate\<21\>\/MM0 ( N_BL_I\<21\>_Xtgate\<21\>\/MM0_d \
+ N_A\<2\>_Xtgate\<21\>\/MM0_g N_BL\<21\>_Xtgate\<21\>\/MM0_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<20\>\/Maccess ( N_BL_I\<21\>_XI0\<20\>\/Maccess_d \
+ N_WL_INV\<15\>_XI0\<20\>\/Maccess_g N_XI0\<20\>\/SRAM_XI0\<20\>\/Mnmos_d \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.78125e-14 \
+ as=6.79375e-14 pd=6.95e-07 ps=1.095e-06
+mXI0\<21\>\/Maccess ( N_BL_I\<22\>_XI0\<21\>\/Maccess_d \
+ N_WL_INV\<15\>_XI0\<21\>\/Maccess_g N_XI0\<21\>\/SRAM_XI0\<21\>\/Maccess_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.78125e-14 \
+ as=6.79375e-14 pd=6.95e-07 ps=1.095e-06
+mXtgate\<22\>\/MM0 ( N_BL_I\<22\>_Xtgate\<22\>\/MM0_d \
+ N_A\<2\>_Xtgate\<22\>\/MM0_g N_BL\<22\>_Xtgate\<22\>\/MM0_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<21\>\/Mnmos ( N_XI0\<21\>\/SRAM_XI0\<21\>\/Maccess_s \
+ N_XI0\<21\>\/SRAM_B_XI0\<21\>\/Mnmos_g N_GND!_XI0\<21\>\/Mnmos_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=7.3675e-14 pd=1.095e-06 ps=1.495e-06
+mXI0\<21\>\/Mnmos_b ( N_XI0\<21\>\/SRAM_B_XI0\<21\>\/Mnmos_b_d \
+ N_XI0\<21\>\/SRAM_XI0\<21\>\/Mnmos_b_g N_GND!_XI0\<21\>\/Mnmos_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=7.3675e-14 pd=1.12e-06 ps=1.495e-06
+mXtgate\<22\>\/MNMOS ( N_BL_I_B\<22\>_Xtgate\<22\>\/MNMOS_d \
+ N_A\<2\>_Xtgate\<22\>\/MNMOS_g N_BL_B\<22\>_Xtgate\<22\>\/MNMOS_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<21\>\/Maccess_b ( N_BL_I_B\<22\>_XI0\<21\>\/Maccess_b_d \
+ N_WL_INV\<15\>_XI0\<21\>\/Maccess_b_g \
+ N_XI0\<21\>\/SRAM_B_XI0\<21\>\/Mnmos_b_d N_GND!_XI5\<15\>\/Maccess_b ) \
+ NMOS_VTL l=5e-08 w=1.25e-07 ad=2.75e-14 as=7.0875e-14 pd=6.9e-07 ps=1.12e-06
+mXI0\<22\>\/Maccess_b ( N_BL_I_B\<23\>_XI0\<22\>\/Maccess_b_d \
+ N_WL_INV\<15\>_XI0\<22\>\/Maccess_b_g \
+ N_XI0\<22\>\/SRAM_B_XI0\<22\>\/Maccess_b_s N_GND!_XI5\<15\>\/Maccess_b ) \
+ NMOS_VTL l=5e-08 w=1.25e-07 ad=2.75e-14 as=7.0875e-14 pd=6.9e-07 ps=1.12e-06
+mXtgate\<23\>\/MNMOS ( N_BL_I_B\<23\>_Xtgate\<23\>\/MNMOS_d \
+ N_A\<2\>_Xtgate\<23\>\/MNMOS_g N_BL_B\<23\>_Xtgate\<23\>\/MNMOS_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<22\>\/Mnmos_b ( N_XI0\<22\>\/SRAM_B_XI0\<22\>\/Maccess_b_s \
+ N_XI0\<22\>\/SRAM_XI0\<22\>\/Mnmos_b_g N_GND!_XI0\<22\>\/Mnmos_b_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=7.3675e-14 pd=1.12e-06 ps=1.495e-06
+mXI0\<22\>\/Mnmos ( N_XI0\<22\>\/SRAM_XI0\<22\>\/Mnmos_d \
+ N_XI0\<22\>\/SRAM_B_XI0\<22\>\/Mnmos_g N_GND!_XI0\<22\>\/Mnmos_b_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=7.3675e-14 pd=1.095e-06 ps=1.495e-06
+mXtgate\<23\>\/MM0 ( N_BL_I\<23\>_Xtgate\<23\>\/MM0_d \
+ N_A\<2\>_Xtgate\<23\>\/MM0_g N_BL\<23\>_Xtgate\<23\>\/MM0_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<22\>\/Maccess ( N_BL_I\<23\>_XI0\<22\>\/Maccess_d \
+ N_WL_INV\<15\>_XI0\<22\>\/Maccess_g N_XI0\<22\>\/SRAM_XI0\<22\>\/Mnmos_d \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.78125e-14 \
+ as=6.79375e-14 pd=6.95e-07 ps=1.095e-06
+mXI0\<23\>\/Maccess ( N_BL_I\<24\>_XI0\<23\>\/Maccess_d \
+ N_WL_INV\<15\>_XI0\<23\>\/Maccess_g N_XI0\<23\>\/SRAM_XI0\<23\>\/Maccess_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.78125e-14 \
+ as=6.79375e-14 pd=6.95e-07 ps=1.095e-06
+mXtgate\<24\>\/MM0 ( N_BL_I\<24\>_Xtgate\<24\>\/MM0_d \
+ N_A\<3\>_Xtgate\<24\>\/MM0_g N_BL\<24\>_Xtgate\<24\>\/MM0_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<23\>\/Mnmos ( N_XI0\<23\>\/SRAM_XI0\<23\>\/Maccess_s \
+ N_XI0\<23\>\/SRAM_B_XI0\<23\>\/Mnmos_g N_GND!_XI0\<23\>\/Mnmos_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=7.3675e-14 pd=1.095e-06 ps=1.495e-06
+mXI0\<23\>\/Mnmos_b ( N_XI0\<23\>\/SRAM_B_XI0\<23\>\/Mnmos_b_d \
+ N_XI0\<23\>\/SRAM_XI0\<23\>\/Mnmos_b_g N_GND!_XI0\<23\>\/Mnmos_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=7.3675e-14 pd=1.12e-06 ps=1.495e-06
+mXtgate\<24\>\/MNMOS ( N_BL_I_B\<24\>_Xtgate\<24\>\/MNMOS_d \
+ N_A\<3\>_Xtgate\<24\>\/MNMOS_g N_BL_B\<24\>_Xtgate\<24\>\/MNMOS_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<23\>\/Maccess_b ( N_BL_I_B\<24\>_XI0\<23\>\/Maccess_b_d \
+ N_WL_INV\<15\>_XI0\<23\>\/Maccess_b_g \
+ N_XI0\<23\>\/SRAM_B_XI0\<23\>\/Mnmos_b_d N_GND!_XI5\<15\>\/Maccess_b ) \
+ NMOS_VTL l=5e-08 w=1.25e-07 ad=2.75e-14 as=7.0875e-14 pd=6.9e-07 ps=1.12e-06
+mXI0\<24\>\/Maccess_b ( N_BL_I_B\<25\>_XI0\<24\>\/Maccess_b_d \
+ N_WL_INV\<15\>_XI0\<24\>\/Maccess_b_g \
+ N_XI0\<24\>\/SRAM_B_XI0\<24\>\/Maccess_b_s N_GND!_XI5\<15\>\/Maccess_b ) \
+ NMOS_VTL l=5e-08 w=1.25e-07 ad=2.75e-14 as=7.0875e-14 pd=6.9e-07 ps=1.12e-06
+mXtgate\<25\>\/MNMOS ( N_BL_I_B\<25\>_Xtgate\<25\>\/MNMOS_d \
+ N_A\<3\>_Xtgate\<25\>\/MNMOS_g N_BL_B\<25\>_Xtgate\<25\>\/MNMOS_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<24\>\/Mnmos_b ( N_XI0\<24\>\/SRAM_B_XI0\<24\>\/Maccess_b_s \
+ N_XI0\<24\>\/SRAM_XI0\<24\>\/Mnmos_b_g N_GND!_XI0\<24\>\/Mnmos_b_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=7.3675e-14 pd=1.12e-06 ps=1.495e-06
+mXI0\<24\>\/Mnmos ( N_XI0\<24\>\/SRAM_XI0\<24\>\/Mnmos_d \
+ N_XI0\<24\>\/SRAM_B_XI0\<24\>\/Mnmos_g N_GND!_XI0\<24\>\/Mnmos_b_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=7.3675e-14 pd=1.095e-06 ps=1.495e-06
+mXtgate\<25\>\/MM0 ( N_BL_I\<25\>_Xtgate\<25\>\/MM0_d \
+ N_A\<3\>_Xtgate\<25\>\/MM0_g N_BL\<25\>_Xtgate\<25\>\/MM0_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<24\>\/Maccess ( N_BL_I\<25\>_XI0\<24\>\/Maccess_d \
+ N_WL_INV\<15\>_XI0\<24\>\/Maccess_g N_XI0\<24\>\/SRAM_XI0\<24\>\/Mnmos_d \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.78125e-14 \
+ as=6.79375e-14 pd=6.95e-07 ps=1.095e-06
+mXI0\<25\>\/Maccess ( N_BL_I\<26\>_XI0\<25\>\/Maccess_d \
+ N_WL_INV\<15\>_XI0\<25\>\/Maccess_g N_XI0\<25\>\/SRAM_XI0\<25\>\/Maccess_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.78125e-14 \
+ as=6.79375e-14 pd=6.95e-07 ps=1.095e-06
+mXtgate\<26\>\/MM0 ( N_BL_I\<26\>_Xtgate\<26\>\/MM0_d \
+ N_A\<3\>_Xtgate\<26\>\/MM0_g N_BL\<26\>_Xtgate\<26\>\/MM0_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<25\>\/Mnmos ( N_XI0\<25\>\/SRAM_XI0\<25\>\/Maccess_s \
+ N_XI0\<25\>\/SRAM_B_XI0\<25\>\/Mnmos_g N_GND!_XI0\<25\>\/Mnmos_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=7.3675e-14 pd=1.095e-06 ps=1.495e-06
+mXI0\<25\>\/Mnmos_b ( N_XI0\<25\>\/SRAM_B_XI0\<25\>\/Mnmos_b_d \
+ N_XI0\<25\>\/SRAM_XI0\<25\>\/Mnmos_b_g N_GND!_XI0\<25\>\/Mnmos_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=7.3675e-14 pd=1.12e-06 ps=1.495e-06
+mXtgate\<26\>\/MNMOS ( N_BL_I_B\<26\>_Xtgate\<26\>\/MNMOS_d \
+ N_A\<3\>_Xtgate\<26\>\/MNMOS_g N_BL_B\<26\>_Xtgate\<26\>\/MNMOS_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<25\>\/Maccess_b ( N_BL_I_B\<26\>_XI0\<25\>\/Maccess_b_d \
+ N_WL_INV\<15\>_XI0\<25\>\/Maccess_b_g \
+ N_XI0\<25\>\/SRAM_B_XI0\<25\>\/Mnmos_b_d N_GND!_XI5\<15\>\/Maccess_b ) \
+ NMOS_VTL l=5e-08 w=1.25e-07 ad=2.75e-14 as=7.0875e-14 pd=6.9e-07 ps=1.12e-06
+mXI0\<26\>\/Maccess_b ( N_BL_I_B\<27\>_XI0\<26\>\/Maccess_b_d \
+ N_WL_INV\<15\>_XI0\<26\>\/Maccess_b_g \
+ N_XI0\<26\>\/SRAM_B_XI0\<26\>\/Maccess_b_s N_GND!_XI5\<15\>\/Maccess_b ) \
+ NMOS_VTL l=5e-08 w=1.25e-07 ad=2.75e-14 as=7.0875e-14 pd=6.9e-07 ps=1.12e-06
+mXtgate\<27\>\/MNMOS ( N_BL_I_B\<27\>_Xtgate\<27\>\/MNMOS_d \
+ N_A\<3\>_Xtgate\<27\>\/MNMOS_g N_BL_B\<27\>_Xtgate\<27\>\/MNMOS_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<26\>\/Mnmos_b ( N_XI0\<26\>\/SRAM_B_XI0\<26\>\/Maccess_b_s \
+ N_XI0\<26\>\/SRAM_XI0\<26\>\/Mnmos_b_g N_GND!_XI0\<26\>\/Mnmos_b_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=7.3675e-14 pd=1.12e-06 ps=1.495e-06
+mXI0\<26\>\/Mnmos ( N_XI0\<26\>\/SRAM_XI0\<26\>\/Mnmos_d \
+ N_XI0\<26\>\/SRAM_B_XI0\<26\>\/Mnmos_g N_GND!_XI0\<26\>\/Mnmos_b_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=7.3675e-14 pd=1.095e-06 ps=1.495e-06
+mXtgate\<27\>\/MM0 ( N_BL_I\<27\>_Xtgate\<27\>\/MM0_d \
+ N_A\<3\>_Xtgate\<27\>\/MM0_g N_BL\<27\>_Xtgate\<27\>\/MM0_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<26\>\/Maccess ( N_BL_I\<27\>_XI0\<26\>\/Maccess_d \
+ N_WL_INV\<15\>_XI0\<26\>\/Maccess_g N_XI0\<26\>\/SRAM_XI0\<26\>\/Mnmos_d \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.78125e-14 \
+ as=6.79375e-14 pd=6.95e-07 ps=1.095e-06
+mXI0\<27\>\/Maccess ( N_BL_I\<28\>_XI0\<27\>\/Maccess_d \
+ N_WL_INV\<15\>_XI0\<27\>\/Maccess_g N_XI0\<27\>\/SRAM_XI0\<27\>\/Maccess_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.78125e-14 \
+ as=6.79375e-14 pd=6.95e-07 ps=1.095e-06
+mXtgate\<28\>\/MM0 ( N_BL_I\<28\>_Xtgate\<28\>\/MM0_d \
+ N_A\<3\>_Xtgate\<28\>\/MM0_g N_BL\<28\>_Xtgate\<28\>\/MM0_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<27\>\/Mnmos ( N_XI0\<27\>\/SRAM_XI0\<27\>\/Maccess_s \
+ N_XI0\<27\>\/SRAM_B_XI0\<27\>\/Mnmos_g N_GND!_XI0\<27\>\/Mnmos_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=7.3675e-14 pd=1.095e-06 ps=1.495e-06
+mXI0\<27\>\/Mnmos_b ( N_XI0\<27\>\/SRAM_B_XI0\<27\>\/Mnmos_b_d \
+ N_XI0\<27\>\/SRAM_XI0\<27\>\/Mnmos_b_g N_GND!_XI0\<27\>\/Mnmos_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=7.3675e-14 pd=1.12e-06 ps=1.495e-06
+mXtgate\<28\>\/MNMOS ( N_BL_I_B\<28\>_Xtgate\<28\>\/MNMOS_d \
+ N_A\<3\>_Xtgate\<28\>\/MNMOS_g N_BL_B\<28\>_Xtgate\<28\>\/MNMOS_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<27\>\/Maccess_b ( N_BL_I_B\<28\>_XI0\<27\>\/Maccess_b_d \
+ N_WL_INV\<15\>_XI0\<27\>\/Maccess_b_g \
+ N_XI0\<27\>\/SRAM_B_XI0\<27\>\/Mnmos_b_d N_GND!_XI5\<15\>\/Maccess_b ) \
+ NMOS_VTL l=5e-08 w=1.25e-07 ad=2.75e-14 as=7.0875e-14 pd=6.9e-07 ps=1.12e-06
+mXI0\<28\>\/Maccess_b ( N_BL_I_B\<29\>_XI0\<28\>\/Maccess_b_d \
+ N_WL_INV\<15\>_XI0\<28\>\/Maccess_b_g \
+ N_XI0\<28\>\/SRAM_B_XI0\<28\>\/Maccess_b_s N_GND!_XI5\<15\>\/Maccess_b ) \
+ NMOS_VTL l=5e-08 w=1.25e-07 ad=2.75e-14 as=7.0875e-14 pd=6.9e-07 ps=1.12e-06
+mXtgate\<29\>\/MNMOS ( N_BL_I_B\<29\>_Xtgate\<29\>\/MNMOS_d \
+ N_A\<3\>_Xtgate\<29\>\/MNMOS_g N_BL_B\<29\>_Xtgate\<29\>\/MNMOS_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<28\>\/Mnmos_b ( N_XI0\<28\>\/SRAM_B_XI0\<28\>\/Maccess_b_s \
+ N_XI0\<28\>\/SRAM_XI0\<28\>\/Mnmos_b_g N_GND!_XI0\<28\>\/Mnmos_b_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=7.3675e-14 pd=1.12e-06 ps=1.495e-06
+mXI0\<28\>\/Mnmos ( N_XI0\<28\>\/SRAM_XI0\<28\>\/Mnmos_d \
+ N_XI0\<28\>\/SRAM_B_XI0\<28\>\/Mnmos_g N_GND!_XI0\<28\>\/Mnmos_b_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=7.3675e-14 pd=1.095e-06 ps=1.495e-06
+mXtgate\<29\>\/MM0 ( N_BL_I\<29\>_Xtgate\<29\>\/MM0_d \
+ N_A\<3\>_Xtgate\<29\>\/MM0_g N_BL\<29\>_Xtgate\<29\>\/MM0_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<28\>\/Maccess ( N_BL_I\<29\>_XI0\<28\>\/Maccess_d \
+ N_WL_INV\<15\>_XI0\<28\>\/Maccess_g N_XI0\<28\>\/SRAM_XI0\<28\>\/Mnmos_d \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.78125e-14 \
+ as=6.79375e-14 pd=6.95e-07 ps=1.095e-06
+mXI0\<29\>\/Maccess ( N_BL_I\<30\>_XI0\<29\>\/Maccess_d \
+ N_WL_INV\<15\>_XI0\<29\>\/Maccess_g N_XI0\<29\>\/SRAM_XI0\<29\>\/Maccess_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.78125e-14 \
+ as=6.79375e-14 pd=6.95e-07 ps=1.095e-06
+mXtgate\<30\>\/MM0 ( N_BL_I\<30\>_Xtgate\<30\>\/MM0_d \
+ N_A\<3\>_Xtgate\<30\>\/MM0_g N_BL\<30\>_Xtgate\<30\>\/MM0_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<29\>\/Mnmos ( N_XI0\<29\>\/SRAM_XI0\<29\>\/Maccess_s \
+ N_XI0\<29\>\/SRAM_B_XI0\<29\>\/Mnmos_g N_GND!_XI0\<29\>\/Mnmos_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=7.3675e-14 pd=1.095e-06 ps=1.495e-06
+mXI0\<29\>\/Mnmos_b ( N_XI0\<29\>\/SRAM_B_XI0\<29\>\/Mnmos_b_d \
+ N_XI0\<29\>\/SRAM_XI0\<29\>\/Mnmos_b_g N_GND!_XI0\<29\>\/Mnmos_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=7.3675e-14 pd=1.12e-06 ps=1.495e-06
+mXtgate\<30\>\/MNMOS ( N_BL_I_B\<30\>_Xtgate\<30\>\/MNMOS_d \
+ N_A\<3\>_Xtgate\<30\>\/MNMOS_g N_BL_B\<30\>_Xtgate\<30\>\/MNMOS_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<29\>\/Maccess_b ( N_BL_I_B\<30\>_XI0\<29\>\/Maccess_b_d \
+ N_WL_INV\<15\>_XI0\<29\>\/Maccess_b_g \
+ N_XI0\<29\>\/SRAM_B_XI0\<29\>\/Mnmos_b_d N_GND!_XI5\<15\>\/Maccess_b ) \
+ NMOS_VTL l=5e-08 w=1.25e-07 ad=2.75e-14 as=7.0875e-14 pd=6.9e-07 ps=1.12e-06
+mXI0\<30\>\/Maccess_b ( N_BL_I_B\<31\>_XI0\<30\>\/Maccess_b_d \
+ N_WL_INV\<15\>_XI0\<30\>\/Maccess_b_g \
+ N_XI0\<30\>\/SRAM_B_XI0\<30\>\/Maccess_b_s N_GND!_XI5\<15\>\/Maccess_b ) \
+ NMOS_VTL l=5e-08 w=1.25e-07 ad=2.75e-14 as=7.0875e-14 pd=6.9e-07 ps=1.12e-06
+mXtgate\<31\>\/MNMOS ( N_BL_I_B\<31\>_Xtgate\<31\>\/MNMOS_d \
+ N_A\<3\>_Xtgate\<31\>\/MNMOS_g N_BL_B\<31\>_Xtgate\<31\>\/MNMOS_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<30\>\/Mnmos_b ( N_XI0\<30\>\/SRAM_B_XI0\<30\>\/Maccess_b_s \
+ N_XI0\<30\>\/SRAM_XI0\<30\>\/Mnmos_b_g N_GND!_XI0\<30\>\/Mnmos_b_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=7.0875e-14 \
+ as=7.3675e-14 pd=1.12e-06 ps=1.495e-06
+mXI0\<30\>\/Mnmos ( N_XI0\<30\>\/SRAM_XI0\<30\>\/Mnmos_d \
+ N_XI0\<30\>\/SRAM_B_XI0\<30\>\/Mnmos_g N_GND!_XI0\<30\>\/Mnmos_b_s \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=2.35e-07 ad=6.79375e-14 \
+ as=7.3675e-14 pd=1.095e-06 ps=1.495e-06
+mXtgate\<31\>\/MM0 ( N_BL_I\<31\>_Xtgate\<31\>\/MM0_d \
+ N_A\<3\>_Xtgate\<31\>\/MM0_g N_BL\<31\>_Xtgate\<31\>\/MM0_s \
+ N_GND!_Xtgate\<0\>\/MM0_b ) NMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<30\>\/Maccess ( N_BL_I\<31\>_XI0\<30\>\/Maccess_d \
+ N_WL_INV\<15\>_XI0\<30\>\/Maccess_g N_XI0\<30\>\/SRAM_XI0\<30\>\/Mnmos_d \
+ N_GND!_XI5\<15\>\/Maccess_b ) NMOS_VTL l=5e-08 w=1.25e-07 ad=2.78125e-14 \
+ as=6.79375e-14 pd=6.95e-07 ps=1.095e-06
+mXinv\<15\>\/MPMOS ( N_WL_INV\<15\>_Xinv\<15\>\/MPMOS_d \
+ N_WL\<15\>_Xinv\<15\>\/MPMOS_g N_VDD!_Xinv\<15\>\/MPMOS_s \
+ N_VDD!_Xinv\<15\>\/MPMOS_b ) PMOS_VTL l=5e-08 w=1e-06 ad=3.9e-13 as=2.25e-13 \
+ pd=2.78e-06 ps=2.45e-06
+mXinv\<14\>\/MPMOS ( N_WL_INV\<14\>_Xinv\<14\>\/MPMOS_d \
+ N_WL\<14\>_Xinv\<14\>\/MPMOS_g N_VDD!_Xinv\<14\>\/MPMOS_s \
+ N_VDD!_Xinv\<14\>\/MPMOS_b ) PMOS_VTL l=5e-08 w=1e-06 ad=3.9e-13 as=2.25e-13 \
+ pd=2.78e-06 ps=2.45e-06
+mXinv\<13\>\/MPMOS ( N_WL_INV\<13\>_Xinv\<13\>\/MPMOS_d \
+ N_WL\<13\>_Xinv\<13\>\/MPMOS_g N_VDD!_Xinv\<13\>\/MPMOS_s \
+ N_VDD!_Xinv\<14\>\/MPMOS_b ) PMOS_VTL l=5e-08 w=1e-06 ad=3.9e-13 as=2.25e-13 \
+ pd=2.78e-06 ps=2.45e-06
+mXinv\<12\>\/MPMOS ( N_WL_INV\<12\>_Xinv\<12\>\/MPMOS_d \
+ N_WL\<12\>_Xinv\<12\>\/MPMOS_g N_VDD!_Xinv\<12\>\/MPMOS_s \
+ N_VDD!_Xinv\<12\>\/MPMOS_b ) PMOS_VTL l=5e-08 w=1e-06 ad=3.9e-13 as=2.25e-13 \
+ pd=2.78e-06 ps=2.45e-06
+mXinv\<11\>\/MPMOS ( N_WL_INV\<11\>_Xinv\<11\>\/MPMOS_d \
+ N_WL\<11\>_Xinv\<11\>\/MPMOS_g N_VDD!_Xinv\<11\>\/MPMOS_s \
+ N_VDD!_Xinv\<12\>\/MPMOS_b ) PMOS_VTL l=5e-08 w=1e-06 ad=3.9e-13 as=2.25e-13 \
+ pd=2.78e-06 ps=2.45e-06
+mXinv\<10\>\/MPMOS ( N_WL_INV\<10\>_Xinv\<10\>\/MPMOS_d \
+ N_WL\<10\>_Xinv\<10\>\/MPMOS_g N_VDD!_Xinv\<10\>\/MPMOS_s \
+ N_VDD!_Xinv\<10\>\/MPMOS_b ) PMOS_VTL l=5e-08 w=1e-06 ad=3.9e-13 as=2.25e-13 \
+ pd=2.78e-06 ps=2.45e-06
+mXinv\<9\>\/MPMOS ( N_WL_INV\<9\>_Xinv\<9\>\/MPMOS_d \
+ N_WL\<9\>_Xinv\<9\>\/MPMOS_g N_VDD!_Xinv\<9\>\/MPMOS_s \
+ N_VDD!_Xinv\<10\>\/MPMOS_b ) PMOS_VTL l=5e-08 w=1e-06 ad=3.9e-13 as=2.25e-13 \
+ pd=2.78e-06 ps=2.45e-06
+mXinv\<8\>\/MPMOS ( N_WL_INV\<8\>_Xinv\<8\>\/MPMOS_d \
+ N_WL\<8\>_Xinv\<8\>\/MPMOS_g N_VDD!_Xinv\<8\>\/MPMOS_s \
+ N_VDD!_Xinv\<8\>\/MPMOS_b ) PMOS_VTL l=5e-08 w=1e-06 ad=3.9e-13 as=2.25e-13 \
+ pd=2.78e-06 ps=2.45e-06
+mXinv\<7\>\/MPMOS ( N_WL_INV\<7\>_Xinv\<7\>\/MPMOS_d \
+ N_WL\<7\>_Xinv\<7\>\/MPMOS_g N_VDD!_Xinv\<7\>\/MPMOS_s \
+ N_VDD!_Xinv\<8\>\/MPMOS_b ) PMOS_VTL l=5e-08 w=1e-06 ad=3.9e-13 as=2.25e-13 \
+ pd=2.78e-06 ps=2.45e-06
+mXinv\<6\>\/MPMOS ( N_WL_INV\<6\>_Xinv\<6\>\/MPMOS_d \
+ N_WL\<6\>_Xinv\<6\>\/MPMOS_g N_VDD!_Xinv\<6\>\/MPMOS_s \
+ N_VDD!_Xinv\<6\>\/MPMOS_b ) PMOS_VTL l=5e-08 w=1e-06 ad=3.9e-13 as=2.25e-13 \
+ pd=2.78e-06 ps=2.45e-06
+mXinv\<5\>\/MPMOS ( N_WL_INV\<5\>_Xinv\<5\>\/MPMOS_d \
+ N_WL\<5\>_Xinv\<5\>\/MPMOS_g N_VDD!_Xinv\<5\>\/MPMOS_s \
+ N_VDD!_Xinv\<6\>\/MPMOS_b ) PMOS_VTL l=5e-08 w=1e-06 ad=3.9e-13 as=2.25e-13 \
+ pd=2.78e-06 ps=2.45e-06
+mXinv\<4\>\/MPMOS ( N_WL_INV\<4\>_Xinv\<4\>\/MPMOS_d \
+ N_WL\<4\>_Xinv\<4\>\/MPMOS_g N_VDD!_Xinv\<4\>\/MPMOS_s \
+ N_VDD!_Xinv\<4\>\/MPMOS_b ) PMOS_VTL l=5e-08 w=1e-06 ad=3.9e-13 as=2.25e-13 \
+ pd=2.78e-06 ps=2.45e-06
+mXinv\<3\>\/MPMOS ( N_WL_INV\<3\>_Xinv\<3\>\/MPMOS_d \
+ N_WL\<3\>_Xinv\<3\>\/MPMOS_g N_VDD!_Xinv\<3\>\/MPMOS_s \
+ N_VDD!_Xinv\<4\>\/MPMOS_b ) PMOS_VTL l=5e-08 w=1e-06 ad=3.9e-13 as=2.25e-13 \
+ pd=2.78e-06 ps=2.45e-06
+mXinv\<2\>\/MPMOS ( N_WL_INV\<2\>_Xinv\<2\>\/MPMOS_d \
+ N_WL\<2\>_Xinv\<2\>\/MPMOS_g N_VDD!_Xinv\<2\>\/MPMOS_s \
+ N_VDD!_Xinv\<2\>\/MPMOS_b ) PMOS_VTL l=5e-08 w=1e-06 ad=3.9e-13 as=2.25e-13 \
+ pd=2.78e-06 ps=2.45e-06
+mXinv\<1\>\/MPMOS ( N_WL_INV\<1\>_Xinv\<1\>\/MPMOS_d \
+ N_WL\<1\>_Xinv\<1\>\/MPMOS_g N_VDD!_Xinv\<1\>\/MPMOS_s \
+ N_VDD!_Xinv\<2\>\/MPMOS_b ) PMOS_VTL l=5e-08 w=1e-06 ad=3.9e-13 as=2.25e-13 \
+ pd=2.78e-06 ps=2.45e-06
+mXinv\<0\>\/MPMOS ( N_WL_INV\<0\>_Xinv\<0\>\/MPMOS_d \
+ N_WL\<0\>_Xinv\<0\>\/MPMOS_g N_VDD!_Xinv\<0\>\/MPMOS_s \
+ N_VDD!_Xinv\<0\>\/MPMOS_b ) PMOS_VTL l=5e-08 w=1e-06 ad=3.9e-13 as=2.25e-13 \
+ pd=2.78e-06 ps=2.45e-06
+mXprecharge\<0\>\/MM0 ( N_BL_I\<0\>_Xprecharge\<0\>\/MM0_d \
+ N_P_Xprecharge\<0\>\/MM0_g N_VDD!_Xprecharge\<0\>\/MM0_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXtgate\<0\>\/MM1 ( N_BL_I\<0\>_Xtgate\<0\>\/MM1_d \
+ N_A_B\<0\>_Xtgate\<0\>\/MM1_g N_BL\<0\>_Xtgate\<0\>\/MM1_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI5\<15\>\/Mpmos ( N_XI5\<15\>\/SRAM_XI5\<15\>\/Mpmos_d \
+ N_XI5\<15\>\/SRAM_B_XI5\<15\>\/Mpmos_g N_VDD!_XI5\<15\>\/Mpmos_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 \
+ as=3.1725e-14 pd=6.7e-07 ps=8.85e-07
+mXI5\<14\>\/Mpmos ( N_XI5\<14\>\/SRAM_XI5\<14\>\/Mpmos_d \
+ N_XI5\<14\>\/SRAM_B_XI5\<14\>\/Mpmos_g N_VDD!_XI5\<14\>\/Mpmos_s \
+ N_VDD!_XI5\<14\>\/Mpmos_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 \
+ as=5.535e-14 pd=6.7e-07 ps=1.41e-06
+mXI5\<13\>\/Mpmos ( N_XI5\<13\>\/SRAM_XI5\<13\>\/Mpmos_d \
+ N_XI5\<13\>\/SRAM_B_XI5\<13\>\/Mpmos_g N_VDD!_XI5\<14\>\/Mpmos_s \
+ N_VDD!_XI5\<14\>\/Mpmos_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 \
+ as=5.535e-14 pd=6.7e-07 ps=1.41e-06
+mXI5\<12\>\/Mpmos ( N_XI5\<12\>\/SRAM_XI5\<12\>\/Mpmos_d \
+ N_XI5\<12\>\/SRAM_B_XI5\<12\>\/Mpmos_g N_VDD!_XI5\<12\>\/Mpmos_s \
+ N_VDD!_XI5\<12\>\/Mpmos_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 \
+ as=5.535e-14 pd=6.7e-07 ps=1.41e-06
+mXI5\<11\>\/Mpmos ( N_XI5\<11\>\/SRAM_XI5\<11\>\/Mpmos_d \
+ N_XI5\<11\>\/SRAM_B_XI5\<11\>\/Mpmos_g N_VDD!_XI5\<12\>\/Mpmos_s \
+ N_VDD!_XI5\<12\>\/Mpmos_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 \
+ as=5.535e-14 pd=6.7e-07 ps=1.41e-06
+mXI5\<10\>\/Mpmos ( N_XI5\<10\>\/SRAM_XI5\<10\>\/Mpmos_d \
+ N_XI5\<10\>\/SRAM_B_XI5\<10\>\/Mpmos_g N_VDD!_XI5\<10\>\/Mpmos_s \
+ N_VDD!_XI5\<10\>\/Mpmos_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 \
+ as=5.535e-14 pd=6.7e-07 ps=1.41e-06
+mXI5\<9\>\/Mpmos ( N_XI5\<9\>\/SRAM_XI5\<9\>\/Mpmos_d \
+ N_XI5\<9\>\/SRAM_B_XI5\<9\>\/Mpmos_g N_VDD!_XI5\<10\>\/Mpmos_s \
+ N_VDD!_XI5\<10\>\/Mpmos_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 \
+ as=5.535e-14 pd=6.7e-07 ps=1.41e-06
+mXI5\<8\>\/Mpmos ( N_XI5\<8\>\/SRAM_XI5\<8\>\/Mpmos_d \
+ N_XI5\<8\>\/SRAM_B_XI5\<8\>\/Mpmos_g N_VDD!_XI5\<8\>\/Mpmos_s \
+ N_VDD!_XI5\<8\>\/Mpmos_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 as=5.535e-14 \
+ pd=6.7e-07 ps=1.41e-06
+mXI5\<7\>\/Mpmos ( N_XI5\<7\>\/SRAM_XI5\<7\>\/Mpmos_d \
+ N_XI5\<7\>\/SRAM_B_XI5\<7\>\/Mpmos_g N_VDD!_XI5\<8\>\/Mpmos_s \
+ N_VDD!_XI5\<8\>\/Mpmos_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 as=5.535e-14 \
+ pd=6.7e-07 ps=1.41e-06
+mXI5\<6\>\/Mpmos ( N_XI5\<6\>\/SRAM_XI5\<6\>\/Mpmos_d \
+ N_XI5\<6\>\/SRAM_B_XI5\<6\>\/Mpmos_g N_VDD!_XI5\<6\>\/Mpmos_s \
+ N_VDD!_XI5\<6\>\/Mpmos_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 as=5.535e-14 \
+ pd=6.7e-07 ps=1.41e-06
+mXI5\<5\>\/Mpmos ( N_XI5\<5\>\/SRAM_XI5\<5\>\/Mpmos_d \
+ N_XI5\<5\>\/SRAM_B_XI5\<5\>\/Mpmos_g N_VDD!_XI5\<6\>\/Mpmos_s \
+ N_VDD!_XI5\<6\>\/Mpmos_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 as=5.535e-14 \
+ pd=6.7e-07 ps=1.41e-06
+mXI5\<4\>\/Mpmos ( N_XI5\<4\>\/SRAM_XI5\<4\>\/Mpmos_d \
+ N_XI5\<4\>\/SRAM_B_XI5\<4\>\/Mpmos_g N_VDD!_XI5\<4\>\/Mpmos_s \
+ N_VDD!_XI5\<4\>\/Mpmos_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 as=5.535e-14 \
+ pd=6.7e-07 ps=1.41e-06
+mXI5\<3\>\/Mpmos ( N_XI5\<3\>\/SRAM_XI5\<3\>\/Mpmos_d \
+ N_XI5\<3\>\/SRAM_B_XI5\<3\>\/Mpmos_g N_VDD!_XI5\<4\>\/Mpmos_s \
+ N_VDD!_XI5\<4\>\/Mpmos_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 as=5.535e-14 \
+ pd=6.7e-07 ps=1.41e-06
+mXI5\<2\>\/Mpmos ( N_XI5\<2\>\/SRAM_XI5\<2\>\/Mpmos_d \
+ N_XI5\<2\>\/SRAM_B_XI5\<2\>\/Mpmos_g N_VDD!_XI5\<2\>\/Mpmos_s \
+ N_VDD!_XI5\<2\>\/Mpmos_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 as=5.535e-14 \
+ pd=6.7e-07 ps=1.41e-06
+mXI5\<1\>\/Mpmos ( N_XI5\<1\>\/SRAM_XI5\<1\>\/Mpmos_d \
+ N_XI5\<1\>\/SRAM_B_XI5\<1\>\/Mpmos_g N_VDD!_XI5\<2\>\/Mpmos_s \
+ N_VDD!_XI5\<2\>\/Mpmos_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 as=5.535e-14 \
+ pd=6.7e-07 ps=1.41e-06
+mXI5\<0\>\/Mpmos ( N_XI5\<0\>\/SRAM_XI5\<0\>\/Mpmos_d \
+ N_XI5\<0\>\/SRAM_B_XI5\<0\>\/Mpmos_g N_VDD!_XI5\<0\>\/Mpmos_s \
+ N_VDD!_XI5\<0\>\/Mpmos_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 \
+ as=3.1725e-14 pd=6.7e-07 ps=8.85e-07
+mXprecharge\<0\>\/MM4 ( N_BL_I_B\<0\>_Xprecharge\<0\>\/MM4_d \
+ N_P_Xprecharge\<0\>\/MM4_g N_BL_I\<0\>_Xprecharge\<0\>\/MM4_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=1.575e-14 \
+ as=1.6425e-14 pd=5.3e-07 ps=5.45e-07
+mXI5\<15\>\/Mpmos_b ( N_XI5\<15\>\/SRAM_B_XI5\<15\>\/Mpmos_b_d \
+ N_XI5\<15\>\/SRAM_XI5\<15\>\/Mpmos_b_g N_VDD!_XI5\<15\>\/Mpmos_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 \
+ as=3.1725e-14 pd=6.9e-07 ps=8.85e-07
+mXI5\<14\>\/Mpmos_b ( N_XI5\<14\>\/SRAM_B_XI5\<14\>\/Mpmos_b_d \
+ N_XI5\<14\>\/SRAM_XI5\<14\>\/Mpmos_b_g N_VDD!_XI5\<14\>\/Mpmos_s \
+ N_VDD!_XI5\<14\>\/Mpmos_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 \
+ as=5.535e-14 pd=6.9e-07 ps=1.41e-06
+mXI5\<13\>\/Mpmos_b ( N_XI5\<13\>\/SRAM_B_XI5\<13\>\/Mpmos_b_d \
+ N_XI5\<13\>\/SRAM_XI5\<13\>\/Mpmos_b_g N_VDD!_XI5\<14\>\/Mpmos_s \
+ N_VDD!_XI5\<14\>\/Mpmos_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 \
+ as=5.535e-14 pd=6.9e-07 ps=1.41e-06
+mXI5\<12\>\/Mpmos_b ( N_XI5\<12\>\/SRAM_B_XI5\<12\>\/Mpmos_b_d \
+ N_XI5\<12\>\/SRAM_XI5\<12\>\/Mpmos_b_g N_VDD!_XI5\<12\>\/Mpmos_s \
+ N_VDD!_XI5\<12\>\/Mpmos_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 \
+ as=5.535e-14 pd=6.9e-07 ps=1.41e-06
+mXI5\<11\>\/Mpmos_b ( N_XI5\<11\>\/SRAM_B_XI5\<11\>\/Mpmos_b_d \
+ N_XI5\<11\>\/SRAM_XI5\<11\>\/Mpmos_b_g N_VDD!_XI5\<12\>\/Mpmos_s \
+ N_VDD!_XI5\<12\>\/Mpmos_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 \
+ as=5.535e-14 pd=6.9e-07 ps=1.41e-06
+mXI5\<10\>\/Mpmos_b ( N_XI5\<10\>\/SRAM_B_XI5\<10\>\/Mpmos_b_d \
+ N_XI5\<10\>\/SRAM_XI5\<10\>\/Mpmos_b_g N_VDD!_XI5\<10\>\/Mpmos_s \
+ N_VDD!_XI5\<10\>\/Mpmos_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 \
+ as=5.535e-14 pd=6.9e-07 ps=1.41e-06
+mXI5\<9\>\/Mpmos_b ( N_XI5\<9\>\/SRAM_B_XI5\<9\>\/Mpmos_b_d \
+ N_XI5\<9\>\/SRAM_XI5\<9\>\/Mpmos_b_g N_VDD!_XI5\<10\>\/Mpmos_s \
+ N_VDD!_XI5\<10\>\/Mpmos_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 \
+ as=5.535e-14 pd=6.9e-07 ps=1.41e-06
+mXI5\<8\>\/Mpmos_b ( N_XI5\<8\>\/SRAM_B_XI5\<8\>\/Mpmos_b_d \
+ N_XI5\<8\>\/SRAM_XI5\<8\>\/Mpmos_b_g N_VDD!_XI5\<8\>\/Mpmos_s \
+ N_VDD!_XI5\<8\>\/Mpmos_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 as=5.535e-14 \
+ pd=6.9e-07 ps=1.41e-06
+mXI5\<7\>\/Mpmos_b ( N_XI5\<7\>\/SRAM_B_XI5\<7\>\/Mpmos_b_d \
+ N_XI5\<7\>\/SRAM_XI5\<7\>\/Mpmos_b_g N_VDD!_XI5\<8\>\/Mpmos_s \
+ N_VDD!_XI5\<8\>\/Mpmos_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 as=5.535e-14 \
+ pd=6.9e-07 ps=1.41e-06
+mXI5\<6\>\/Mpmos_b ( N_XI5\<6\>\/SRAM_B_XI5\<6\>\/Mpmos_b_d \
+ N_XI5\<6\>\/SRAM_XI5\<6\>\/Mpmos_b_g N_VDD!_XI5\<6\>\/Mpmos_s \
+ N_VDD!_XI5\<6\>\/Mpmos_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 as=5.535e-14 \
+ pd=6.9e-07 ps=1.41e-06
+mXI5\<5\>\/Mpmos_b ( N_XI5\<5\>\/SRAM_B_XI5\<5\>\/Mpmos_b_d \
+ N_XI5\<5\>\/SRAM_XI5\<5\>\/Mpmos_b_g N_VDD!_XI5\<6\>\/Mpmos_s \
+ N_VDD!_XI5\<6\>\/Mpmos_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 as=5.535e-14 \
+ pd=6.9e-07 ps=1.41e-06
+mXI5\<4\>\/Mpmos_b ( N_XI5\<4\>\/SRAM_B_XI5\<4\>\/Mpmos_b_d \
+ N_XI5\<4\>\/SRAM_XI5\<4\>\/Mpmos_b_g N_VDD!_XI5\<4\>\/Mpmos_s \
+ N_VDD!_XI5\<4\>\/Mpmos_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 as=5.535e-14 \
+ pd=6.9e-07 ps=1.41e-06
+mXI5\<3\>\/Mpmos_b ( N_XI5\<3\>\/SRAM_B_XI5\<3\>\/Mpmos_b_d \
+ N_XI5\<3\>\/SRAM_XI5\<3\>\/Mpmos_b_g N_VDD!_XI5\<4\>\/Mpmos_s \
+ N_VDD!_XI5\<4\>\/Mpmos_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 as=5.535e-14 \
+ pd=6.9e-07 ps=1.41e-06
+mXI5\<2\>\/Mpmos_b ( N_XI5\<2\>\/SRAM_B_XI5\<2\>\/Mpmos_b_d \
+ N_XI5\<2\>\/SRAM_XI5\<2\>\/Mpmos_b_g N_VDD!_XI5\<2\>\/Mpmos_s \
+ N_VDD!_XI5\<2\>\/Mpmos_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 as=5.535e-14 \
+ pd=6.9e-07 ps=1.41e-06
+mXI5\<1\>\/Mpmos_b ( N_XI5\<1\>\/SRAM_B_XI5\<1\>\/Mpmos_b_d \
+ N_XI5\<1\>\/SRAM_XI5\<1\>\/Mpmos_b_g N_VDD!_XI5\<2\>\/Mpmos_s \
+ N_VDD!_XI5\<2\>\/Mpmos_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 as=5.535e-14 \
+ pd=6.9e-07 ps=1.41e-06
+mXI5\<0\>\/Mpmos_b ( N_XI5\<0\>\/SRAM_B_XI5\<0\>\/Mpmos_b_d \
+ N_XI5\<0\>\/SRAM_XI5\<0\>\/Mpmos_b_g N_VDD!_XI5\<0\>\/Mpmos_s \
+ N_VDD!_XI5\<0\>\/Mpmos_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 \
+ as=3.1725e-14 pd=6.9e-07 ps=8.85e-07
+mXtgate\<0\>\/MPMOS ( N_BL_I_B\<0\>_Xtgate\<0\>\/MPMOS_d \
+ N_A_B\<0\>_Xtgate\<0\>\/MPMOS_g N_BL_B\<0\>_Xtgate\<0\>\/MPMOS_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXprecharge\<0\>\/MM3 ( N_BL_I_B\<0\>_Xprecharge\<0\>\/MM3_d \
+ N_P_Xprecharge\<0\>\/MM3_g N_VDD!_Xprecharge\<0\>\/MM3_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXprecharge\<1\>\/MM3 ( N_BL_I_B\<1\>_Xprecharge\<1\>\/MM3_d \
+ N_P_Xprecharge\<1\>\/MM3_g N_VDD!_Xprecharge\<1\>\/MM3_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXtgate\<1\>\/MPMOS ( N_BL_I_B\<1\>_Xtgate\<1\>\/MPMOS_d \
+ N_A_B\<0\>_Xtgate\<1\>\/MPMOS_g N_BL_B\<1\>_Xtgate\<1\>\/MPMOS_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<0\>\/Mpmos_b ( N_XI0\<0\>\/SRAM_B_XI0\<0\>\/Mpmos_b_d \
+ N_XI0\<0\>\/SRAM_XI0\<0\>\/Mpmos_b_g N_VDD!_XI0\<0\>\/Mpmos_b_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 \
+ as=3.1725e-14 pd=6.9e-07 ps=8.85e-07
+mXprecharge\<1\>\/MM4 ( N_BL_I_B\<1\>_Xprecharge\<1\>\/MM4_d \
+ N_P_Xprecharge\<1\>\/MM4_g N_BL_I\<1\>_Xprecharge\<1\>\/MM4_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=1.575e-14 \
+ as=1.6425e-14 pd=5.3e-07 ps=5.45e-07
+mXI0\<0\>\/Mpmos ( N_XI0\<0\>\/SRAM_XI0\<0\>\/Mpmos_d \
+ N_XI0\<0\>\/SRAM_B_XI0\<0\>\/Mpmos_g N_VDD!_XI0\<0\>\/Mpmos_b_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 \
+ as=3.1725e-14 pd=6.7e-07 ps=8.85e-07
+mXtgate\<1\>\/MM1 ( N_BL_I\<1\>_Xtgate\<1\>\/MM1_d \
+ N_A_B\<0\>_Xtgate\<1\>\/MM1_g N_BL\<1\>_Xtgate\<1\>\/MM1_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXprecharge\<1\>\/MM0 ( N_BL_I\<1\>_Xprecharge\<1\>\/MM0_d \
+ N_P_Xprecharge\<1\>\/MM0_g N_VDD!_Xprecharge\<1\>\/MM0_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXprecharge\<2\>\/MM0 ( N_BL_I\<2\>_Xprecharge\<2\>\/MM0_d \
+ N_P_Xprecharge\<2\>\/MM0_g N_VDD!_Xprecharge\<2\>\/MM0_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXtgate\<2\>\/MM1 ( N_BL_I\<2\>_Xtgate\<2\>\/MM1_d \
+ N_A_B\<0\>_Xtgate\<2\>\/MM1_g N_BL\<2\>_Xtgate\<2\>\/MM1_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<1\>\/Mpmos ( N_XI0\<1\>\/SRAM_XI0\<1\>\/Mpmos_d \
+ N_XI0\<1\>\/SRAM_B_XI0\<1\>\/Mpmos_g N_VDD!_XI0\<1\>\/Mpmos_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 \
+ as=3.1725e-14 pd=6.7e-07 ps=8.85e-07
+mXprecharge\<2\>\/MM4 ( N_BL_I_B\<2\>_Xprecharge\<2\>\/MM4_d \
+ N_P_Xprecharge\<2\>\/MM4_g N_BL_I\<2\>_Xprecharge\<2\>\/MM4_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=1.575e-14 \
+ as=1.6425e-14 pd=5.3e-07 ps=5.45e-07
+mXI0\<1\>\/Mpmos_b ( N_XI0\<1\>\/SRAM_B_XI0\<1\>\/Mpmos_b_d \
+ N_XI0\<1\>\/SRAM_XI0\<1\>\/Mpmos_b_g N_VDD!_XI0\<1\>\/Mpmos_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 \
+ as=3.1725e-14 pd=6.9e-07 ps=8.85e-07
+mXtgate\<2\>\/MPMOS ( N_BL_I_B\<2\>_Xtgate\<2\>\/MPMOS_d \
+ N_A_B\<0\>_Xtgate\<2\>\/MPMOS_g N_BL_B\<2\>_Xtgate\<2\>\/MPMOS_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXprecharge\<2\>\/MM3 ( N_BL_I_B\<2\>_Xprecharge\<2\>\/MM3_d \
+ N_P_Xprecharge\<2\>\/MM3_g N_VDD!_Xprecharge\<2\>\/MM3_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXprecharge\<3\>\/MM3 ( N_BL_I_B\<3\>_Xprecharge\<3\>\/MM3_d \
+ N_P_Xprecharge\<3\>\/MM3_g N_VDD!_Xprecharge\<3\>\/MM3_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXtgate\<3\>\/MPMOS ( N_BL_I_B\<3\>_Xtgate\<3\>\/MPMOS_d \
+ N_A_B\<0\>_Xtgate\<3\>\/MPMOS_g N_BL_B\<3\>_Xtgate\<3\>\/MPMOS_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<2\>\/Mpmos_b ( N_XI0\<2\>\/SRAM_B_XI0\<2\>\/Mpmos_b_d \
+ N_XI0\<2\>\/SRAM_XI0\<2\>\/Mpmos_b_g N_VDD!_XI0\<2\>\/Mpmos_b_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 \
+ as=3.1725e-14 pd=6.9e-07 ps=8.85e-07
+mXprecharge\<3\>\/MM4 ( N_BL_I_B\<3\>_Xprecharge\<3\>\/MM4_d \
+ N_P_Xprecharge\<3\>\/MM4_g N_BL_I\<3\>_Xprecharge\<3\>\/MM4_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=1.575e-14 \
+ as=1.6425e-14 pd=5.3e-07 ps=5.45e-07
+mXI0\<2\>\/Mpmos ( N_XI0\<2\>\/SRAM_XI0\<2\>\/Mpmos_d \
+ N_XI0\<2\>\/SRAM_B_XI0\<2\>\/Mpmos_g N_VDD!_XI0\<2\>\/Mpmos_b_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 \
+ as=3.1725e-14 pd=6.7e-07 ps=8.85e-07
+mXtgate\<3\>\/MM1 ( N_BL_I\<3\>_Xtgate\<3\>\/MM1_d \
+ N_A_B\<0\>_Xtgate\<3\>\/MM1_g N_BL\<3\>_Xtgate\<3\>\/MM1_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXprecharge\<3\>\/MM0 ( N_BL_I\<3\>_Xprecharge\<3\>\/MM0_d \
+ N_P_Xprecharge\<3\>\/MM0_g N_VDD!_Xprecharge\<3\>\/MM0_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXprecharge\<4\>\/MM0 ( N_BL_I\<4\>_Xprecharge\<4\>\/MM0_d \
+ N_P_Xprecharge\<4\>\/MM0_g N_VDD!_Xprecharge\<4\>\/MM0_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXtgate\<4\>\/MM1 ( N_BL_I\<4\>_Xtgate\<4\>\/MM1_d \
+ N_A_B\<0\>_Xtgate\<4\>\/MM1_g N_BL\<4\>_Xtgate\<4\>\/MM1_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<3\>\/Mpmos ( N_XI0\<3\>\/SRAM_XI0\<3\>\/Mpmos_d \
+ N_XI0\<3\>\/SRAM_B_XI0\<3\>\/Mpmos_g N_VDD!_XI0\<3\>\/Mpmos_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 \
+ as=3.1725e-14 pd=6.7e-07 ps=8.85e-07
+mXprecharge\<4\>\/MM4 ( N_BL_I_B\<4\>_Xprecharge\<4\>\/MM4_d \
+ N_P_Xprecharge\<4\>\/MM4_g N_BL_I\<4\>_Xprecharge\<4\>\/MM4_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=1.575e-14 \
+ as=1.6425e-14 pd=5.3e-07 ps=5.45e-07
+mXI0\<3\>\/Mpmos_b ( N_XI0\<3\>\/SRAM_B_XI0\<3\>\/Mpmos_b_d \
+ N_XI0\<3\>\/SRAM_XI0\<3\>\/Mpmos_b_g N_VDD!_XI0\<3\>\/Mpmos_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 \
+ as=3.1725e-14 pd=6.9e-07 ps=8.85e-07
+mXtgate\<4\>\/MPMOS ( N_BL_I_B\<4\>_Xtgate\<4\>\/MPMOS_d \
+ N_A_B\<0\>_Xtgate\<4\>\/MPMOS_g N_BL_B\<4\>_Xtgate\<4\>\/MPMOS_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXprecharge\<4\>\/MM3 ( N_BL_I_B\<4\>_Xprecharge\<4\>\/MM3_d \
+ N_P_Xprecharge\<4\>\/MM3_g N_VDD!_Xprecharge\<4\>\/MM3_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXprecharge\<5\>\/MM3 ( N_BL_I_B\<5\>_Xprecharge\<5\>\/MM3_d \
+ N_P_Xprecharge\<5\>\/MM3_g N_VDD!_Xprecharge\<5\>\/MM3_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXtgate\<5\>\/MPMOS ( N_BL_I_B\<5\>_Xtgate\<5\>\/MPMOS_d \
+ N_A_B\<0\>_Xtgate\<5\>\/MPMOS_g N_BL_B\<5\>_Xtgate\<5\>\/MPMOS_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<4\>\/Mpmos_b ( N_XI0\<4\>\/SRAM_B_XI0\<4\>\/Mpmos_b_d \
+ N_XI0\<4\>\/SRAM_XI0\<4\>\/Mpmos_b_g N_VDD!_XI0\<4\>\/Mpmos_b_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 \
+ as=3.1725e-14 pd=6.9e-07 ps=8.85e-07
+mXprecharge\<5\>\/MM4 ( N_BL_I_B\<5\>_Xprecharge\<5\>\/MM4_d \
+ N_P_Xprecharge\<5\>\/MM4_g N_BL_I\<5\>_Xprecharge\<5\>\/MM4_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=1.575e-14 \
+ as=1.6425e-14 pd=5.3e-07 ps=5.45e-07
+mXI0\<4\>\/Mpmos ( N_XI0\<4\>\/SRAM_XI0\<4\>\/Mpmos_d \
+ N_XI0\<4\>\/SRAM_B_XI0\<4\>\/Mpmos_g N_VDD!_XI0\<4\>\/Mpmos_b_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 \
+ as=3.1725e-14 pd=6.7e-07 ps=8.85e-07
+mXtgate\<5\>\/MM1 ( N_BL_I\<5\>_Xtgate\<5\>\/MM1_d \
+ N_A_B\<0\>_Xtgate\<5\>\/MM1_g N_BL\<5\>_Xtgate\<5\>\/MM1_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXprecharge\<5\>\/MM0 ( N_BL_I\<5\>_Xprecharge\<5\>\/MM0_d \
+ N_P_Xprecharge\<5\>\/MM0_g N_VDD!_Xprecharge\<5\>\/MM0_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXprecharge\<6\>\/MM0 ( N_BL_I\<6\>_Xprecharge\<6\>\/MM0_d \
+ N_P_Xprecharge\<6\>\/MM0_g N_VDD!_Xprecharge\<6\>\/MM0_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXtgate\<6\>\/MM1 ( N_BL_I\<6\>_Xtgate\<6\>\/MM1_d \
+ N_A_B\<0\>_Xtgate\<6\>\/MM1_g N_BL\<6\>_Xtgate\<6\>\/MM1_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<5\>\/Mpmos ( N_XI0\<5\>\/SRAM_XI0\<5\>\/Mpmos_d \
+ N_XI0\<5\>\/SRAM_B_XI0\<5\>\/Mpmos_g N_VDD!_XI0\<5\>\/Mpmos_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 \
+ as=3.1725e-14 pd=6.7e-07 ps=8.85e-07
+mXprecharge\<6\>\/MM4 ( N_BL_I_B\<6\>_Xprecharge\<6\>\/MM4_d \
+ N_P_Xprecharge\<6\>\/MM4_g N_BL_I\<6\>_Xprecharge\<6\>\/MM4_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=1.575e-14 \
+ as=1.6425e-14 pd=5.3e-07 ps=5.45e-07
+mXI0\<5\>\/Mpmos_b ( N_XI0\<5\>\/SRAM_B_XI0\<5\>\/Mpmos_b_d \
+ N_XI0\<5\>\/SRAM_XI0\<5\>\/Mpmos_b_g N_VDD!_XI0\<5\>\/Mpmos_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 \
+ as=3.1725e-14 pd=6.9e-07 ps=8.85e-07
+mXtgate\<6\>\/MPMOS ( N_BL_I_B\<6\>_Xtgate\<6\>\/MPMOS_d \
+ N_A_B\<0\>_Xtgate\<6\>\/MPMOS_g N_BL_B\<6\>_Xtgate\<6\>\/MPMOS_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXprecharge\<6\>\/MM3 ( N_BL_I_B\<6\>_Xprecharge\<6\>\/MM3_d \
+ N_P_Xprecharge\<6\>\/MM3_g N_VDD!_Xprecharge\<6\>\/MM3_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXprecharge\<7\>\/MM3 ( N_BL_I_B\<7\>_Xprecharge\<7\>\/MM3_d \
+ N_P_Xprecharge\<7\>\/MM3_g N_VDD!_Xprecharge\<7\>\/MM3_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXtgate\<7\>\/MPMOS ( N_BL_I_B\<7\>_Xtgate\<7\>\/MPMOS_d \
+ N_A_B\<0\>_Xtgate\<7\>\/MPMOS_g N_BL_B\<7\>_Xtgate\<7\>\/MPMOS_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<6\>\/Mpmos_b ( N_XI0\<6\>\/SRAM_B_XI0\<6\>\/Mpmos_b_d \
+ N_XI0\<6\>\/SRAM_XI0\<6\>\/Mpmos_b_g N_VDD!_XI0\<6\>\/Mpmos_b_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 \
+ as=3.1725e-14 pd=6.9e-07 ps=8.85e-07
+mXprecharge\<7\>\/MM4 ( N_BL_I_B\<7\>_Xprecharge\<7\>\/MM4_d \
+ N_P_Xprecharge\<7\>\/MM4_g N_BL_I\<7\>_Xprecharge\<7\>\/MM4_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=1.575e-14 \
+ as=1.6425e-14 pd=5.3e-07 ps=5.45e-07
+mXI0\<6\>\/Mpmos ( N_XI0\<6\>\/SRAM_XI0\<6\>\/Mpmos_d \
+ N_XI0\<6\>\/SRAM_B_XI0\<6\>\/Mpmos_g N_VDD!_XI0\<6\>\/Mpmos_b_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 \
+ as=3.1725e-14 pd=6.7e-07 ps=8.85e-07
+mXtgate\<7\>\/MM1 ( N_BL_I\<7\>_Xtgate\<7\>\/MM1_d \
+ N_A_B\<0\>_Xtgate\<7\>\/MM1_g N_BL\<7\>_Xtgate\<7\>\/MM1_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXprecharge\<7\>\/MM0 ( N_BL_I\<7\>_Xprecharge\<7\>\/MM0_d \
+ N_P_Xprecharge\<7\>\/MM0_g N_VDD!_Xprecharge\<7\>\/MM0_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXprecharge\<8\>\/MM0 ( N_BL_I\<8\>_Xprecharge\<8\>\/MM0_d \
+ N_P_Xprecharge\<8\>\/MM0_g N_VDD!_Xprecharge\<8\>\/MM0_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXtgate\<8\>\/MM1 ( N_BL_I\<8\>_Xtgate\<8\>\/MM1_d \
+ N_A_B\<1\>_Xtgate\<8\>\/MM1_g N_BL\<8\>_Xtgate\<8\>\/MM1_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<7\>\/Mpmos ( N_XI0\<7\>\/SRAM_XI0\<7\>\/Mpmos_d \
+ N_XI0\<7\>\/SRAM_B_XI0\<7\>\/Mpmos_g N_VDD!_XI0\<7\>\/Mpmos_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 \
+ as=3.1725e-14 pd=6.7e-07 ps=8.85e-07
+mXprecharge\<8\>\/MM4 ( N_BL_I_B\<8\>_Xprecharge\<8\>\/MM4_d \
+ N_P_Xprecharge\<8\>\/MM4_g N_BL_I\<8\>_Xprecharge\<8\>\/MM4_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=1.575e-14 \
+ as=1.6425e-14 pd=5.3e-07 ps=5.45e-07
+mXI0\<7\>\/Mpmos_b ( N_XI0\<7\>\/SRAM_B_XI0\<7\>\/Mpmos_b_d \
+ N_XI0\<7\>\/SRAM_XI0\<7\>\/Mpmos_b_g N_VDD!_XI0\<7\>\/Mpmos_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 \
+ as=3.1725e-14 pd=6.9e-07 ps=8.85e-07
+mXtgate\<8\>\/MPMOS ( N_BL_I_B\<8\>_Xtgate\<8\>\/MPMOS_d \
+ N_A_B\<1\>_Xtgate\<8\>\/MPMOS_g N_BL_B\<8\>_Xtgate\<8\>\/MPMOS_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXprecharge\<8\>\/MM3 ( N_BL_I_B\<8\>_Xprecharge\<8\>\/MM3_d \
+ N_P_Xprecharge\<8\>\/MM3_g N_VDD!_Xprecharge\<8\>\/MM3_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXprecharge\<9\>\/MM3 ( N_BL_I_B\<9\>_Xprecharge\<9\>\/MM3_d \
+ N_P_Xprecharge\<9\>\/MM3_g N_VDD!_Xprecharge\<9\>\/MM3_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXtgate\<9\>\/MPMOS ( N_BL_I_B\<9\>_Xtgate\<9\>\/MPMOS_d \
+ N_A_B\<1\>_Xtgate\<9\>\/MPMOS_g N_BL_B\<9\>_Xtgate\<9\>\/MPMOS_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<8\>\/Mpmos_b ( N_XI0\<8\>\/SRAM_B_XI0\<8\>\/Mpmos_b_d \
+ N_XI0\<8\>\/SRAM_XI0\<8\>\/Mpmos_b_g N_VDD!_XI0\<8\>\/Mpmos_b_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 \
+ as=3.1725e-14 pd=6.9e-07 ps=8.85e-07
+mXprecharge\<9\>\/MM4 ( N_BL_I_B\<9\>_Xprecharge\<9\>\/MM4_d \
+ N_P_Xprecharge\<9\>\/MM4_g N_BL_I\<9\>_Xprecharge\<9\>\/MM4_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=1.575e-14 \
+ as=1.6425e-14 pd=5.3e-07 ps=5.45e-07
+mXI0\<8\>\/Mpmos ( N_XI0\<8\>\/SRAM_XI0\<8\>\/Mpmos_d \
+ N_XI0\<8\>\/SRAM_B_XI0\<8\>\/Mpmos_g N_VDD!_XI0\<8\>\/Mpmos_b_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 \
+ as=3.1725e-14 pd=6.7e-07 ps=8.85e-07
+mXtgate\<9\>\/MM1 ( N_BL_I\<9\>_Xtgate\<9\>\/MM1_d \
+ N_A_B\<1\>_Xtgate\<9\>\/MM1_g N_BL\<9\>_Xtgate\<9\>\/MM1_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXprecharge\<9\>\/MM0 ( N_BL_I\<9\>_Xprecharge\<9\>\/MM0_d \
+ N_P_Xprecharge\<9\>\/MM0_g N_VDD!_Xprecharge\<9\>\/MM0_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXprecharge\<10\>\/MM0 ( N_BL_I\<10\>_Xprecharge\<10\>\/MM0_d \
+ N_P_Xprecharge\<10\>\/MM0_g N_VDD!_Xprecharge\<10\>\/MM0_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXtgate\<10\>\/MM1 ( N_BL_I\<10\>_Xtgate\<10\>\/MM1_d \
+ N_A_B\<1\>_Xtgate\<10\>\/MM1_g N_BL\<10\>_Xtgate\<10\>\/MM1_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<9\>\/Mpmos ( N_XI0\<9\>\/SRAM_XI0\<9\>\/Mpmos_d \
+ N_XI0\<9\>\/SRAM_B_XI0\<9\>\/Mpmos_g N_VDD!_XI0\<9\>\/Mpmos_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 \
+ as=3.1725e-14 pd=6.7e-07 ps=8.85e-07
+mXprecharge\<10\>\/MM4 ( N_BL_I_B\<10\>_Xprecharge\<10\>\/MM4_d \
+ N_P_Xprecharge\<10\>\/MM4_g N_BL_I\<10\>_Xprecharge\<10\>\/MM4_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=1.575e-14 \
+ as=1.6425e-14 pd=5.3e-07 ps=5.45e-07
+mXI0\<9\>\/Mpmos_b ( N_XI0\<9\>\/SRAM_B_XI0\<9\>\/Mpmos_b_d \
+ N_XI0\<9\>\/SRAM_XI0\<9\>\/Mpmos_b_g N_VDD!_XI0\<9\>\/Mpmos_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 \
+ as=3.1725e-14 pd=6.9e-07 ps=8.85e-07
+mXtgate\<10\>\/MPMOS ( N_BL_I_B\<10\>_Xtgate\<10\>\/MPMOS_d \
+ N_A_B\<1\>_Xtgate\<10\>\/MPMOS_g N_BL_B\<10\>_Xtgate\<10\>\/MPMOS_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXprecharge\<10\>\/MM3 ( N_BL_I_B\<10\>_Xprecharge\<10\>\/MM3_d \
+ N_P_Xprecharge\<10\>\/MM3_g N_VDD!_Xprecharge\<10\>\/MM3_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXprecharge\<11\>\/MM3 ( N_BL_I_B\<11\>_Xprecharge\<11\>\/MM3_d \
+ N_P_Xprecharge\<11\>\/MM3_g N_VDD!_Xprecharge\<11\>\/MM3_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXtgate\<11\>\/MPMOS ( N_BL_I_B\<11\>_Xtgate\<11\>\/MPMOS_d \
+ N_A_B\<1\>_Xtgate\<11\>\/MPMOS_g N_BL_B\<11\>_Xtgate\<11\>\/MPMOS_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<10\>\/Mpmos_b ( N_XI0\<10\>\/SRAM_B_XI0\<10\>\/Mpmos_b_d \
+ N_XI0\<10\>\/SRAM_XI0\<10\>\/Mpmos_b_g N_VDD!_XI0\<10\>\/Mpmos_b_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 \
+ as=3.1725e-14 pd=6.9e-07 ps=8.85e-07
+mXprecharge\<11\>\/MM4 ( N_BL_I_B\<11\>_Xprecharge\<11\>\/MM4_d \
+ N_P_Xprecharge\<11\>\/MM4_g N_BL_I\<11\>_Xprecharge\<11\>\/MM4_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=1.575e-14 \
+ as=1.6425e-14 pd=5.3e-07 ps=5.45e-07
+mXI0\<10\>\/Mpmos ( N_XI0\<10\>\/SRAM_XI0\<10\>\/Mpmos_d \
+ N_XI0\<10\>\/SRAM_B_XI0\<10\>\/Mpmos_g N_VDD!_XI0\<10\>\/Mpmos_b_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 \
+ as=3.1725e-14 pd=6.7e-07 ps=8.85e-07
+mXtgate\<11\>\/MM1 ( N_BL_I\<11\>_Xtgate\<11\>\/MM1_d \
+ N_A_B\<1\>_Xtgate\<11\>\/MM1_g N_BL\<11\>_Xtgate\<11\>\/MM1_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXprecharge\<11\>\/MM0 ( N_BL_I\<11\>_Xprecharge\<11\>\/MM0_d \
+ N_P_Xprecharge\<11\>\/MM0_g N_VDD!_Xprecharge\<11\>\/MM0_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXprecharge\<12\>\/MM0 ( N_BL_I\<12\>_Xprecharge\<12\>\/MM0_d \
+ N_P_Xprecharge\<12\>\/MM0_g N_VDD!_Xprecharge\<12\>\/MM0_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXtgate\<12\>\/MM1 ( N_BL_I\<12\>_Xtgate\<12\>\/MM1_d \
+ N_A_B\<1\>_Xtgate\<12\>\/MM1_g N_BL\<12\>_Xtgate\<12\>\/MM1_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<11\>\/Mpmos ( N_XI0\<11\>\/SRAM_XI0\<11\>\/Mpmos_d \
+ N_XI0\<11\>\/SRAM_B_XI0\<11\>\/Mpmos_g N_VDD!_XI0\<11\>\/Mpmos_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 \
+ as=3.1725e-14 pd=6.7e-07 ps=8.85e-07
+mXprecharge\<12\>\/MM4 ( N_BL_I_B\<12\>_Xprecharge\<12\>\/MM4_d \
+ N_P_Xprecharge\<12\>\/MM4_g N_BL_I\<12\>_Xprecharge\<12\>\/MM4_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=1.575e-14 \
+ as=1.6425e-14 pd=5.3e-07 ps=5.45e-07
+mXI0\<11\>\/Mpmos_b ( N_XI0\<11\>\/SRAM_B_XI0\<11\>\/Mpmos_b_d \
+ N_XI0\<11\>\/SRAM_XI0\<11\>\/Mpmos_b_g N_VDD!_XI0\<11\>\/Mpmos_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 \
+ as=3.1725e-14 pd=6.9e-07 ps=8.85e-07
+mXtgate\<12\>\/MPMOS ( N_BL_I_B\<12\>_Xtgate\<12\>\/MPMOS_d \
+ N_A_B\<1\>_Xtgate\<12\>\/MPMOS_g N_BL_B\<12\>_Xtgate\<12\>\/MPMOS_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXprecharge\<12\>\/MM3 ( N_BL_I_B\<12\>_Xprecharge\<12\>\/MM3_d \
+ N_P_Xprecharge\<12\>\/MM3_g N_VDD!_Xprecharge\<12\>\/MM3_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXprecharge\<13\>\/MM3 ( N_BL_I_B\<13\>_Xprecharge\<13\>\/MM3_d \
+ N_P_Xprecharge\<13\>\/MM3_g N_VDD!_Xprecharge\<13\>\/MM3_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXtgate\<13\>\/MPMOS ( N_BL_I_B\<13\>_Xtgate\<13\>\/MPMOS_d \
+ N_A_B\<1\>_Xtgate\<13\>\/MPMOS_g N_BL_B\<13\>_Xtgate\<13\>\/MPMOS_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<12\>\/Mpmos_b ( N_XI0\<12\>\/SRAM_B_XI0\<12\>\/Mpmos_b_d \
+ N_XI0\<12\>\/SRAM_XI0\<12\>\/Mpmos_b_g N_VDD!_XI0\<12\>\/Mpmos_b_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 \
+ as=3.1725e-14 pd=6.9e-07 ps=8.85e-07
+mXprecharge\<13\>\/MM4 ( N_BL_I_B\<13\>_Xprecharge\<13\>\/MM4_d \
+ N_P_Xprecharge\<13\>\/MM4_g N_BL_I\<13\>_Xprecharge\<13\>\/MM4_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=1.575e-14 \
+ as=1.6425e-14 pd=5.3e-07 ps=5.45e-07
+mXI0\<12\>\/Mpmos ( N_XI0\<12\>\/SRAM_XI0\<12\>\/Mpmos_d \
+ N_XI0\<12\>\/SRAM_B_XI0\<12\>\/Mpmos_g N_VDD!_XI0\<12\>\/Mpmos_b_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 \
+ as=3.1725e-14 pd=6.7e-07 ps=8.85e-07
+mXtgate\<13\>\/MM1 ( N_BL_I\<13\>_Xtgate\<13\>\/MM1_d \
+ N_A_B\<1\>_Xtgate\<13\>\/MM1_g N_BL\<13\>_Xtgate\<13\>\/MM1_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXprecharge\<13\>\/MM0 ( N_BL_I\<13\>_Xprecharge\<13\>\/MM0_d \
+ N_P_Xprecharge\<13\>\/MM0_g N_VDD!_Xprecharge\<13\>\/MM0_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXprecharge\<14\>\/MM0 ( N_BL_I\<14\>_Xprecharge\<14\>\/MM0_d \
+ N_P_Xprecharge\<14\>\/MM0_g N_VDD!_Xprecharge\<14\>\/MM0_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXtgate\<14\>\/MM1 ( N_BL_I\<14\>_Xtgate\<14\>\/MM1_d \
+ N_A_B\<1\>_Xtgate\<14\>\/MM1_g N_BL\<14\>_Xtgate\<14\>\/MM1_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<13\>\/Mpmos ( N_XI0\<13\>\/SRAM_XI0\<13\>\/Mpmos_d \
+ N_XI0\<13\>\/SRAM_B_XI0\<13\>\/Mpmos_g N_VDD!_XI0\<13\>\/Mpmos_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 \
+ as=3.1725e-14 pd=6.7e-07 ps=8.85e-07
+mXprecharge\<14\>\/MM4 ( N_BL_I_B\<14\>_Xprecharge\<14\>\/MM4_d \
+ N_P_Xprecharge\<14\>\/MM4_g N_BL_I\<14\>_Xprecharge\<14\>\/MM4_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=1.575e-14 \
+ as=1.6425e-14 pd=5.3e-07 ps=5.45e-07
+mXI0\<13\>\/Mpmos_b ( N_XI0\<13\>\/SRAM_B_XI0\<13\>\/Mpmos_b_d \
+ N_XI0\<13\>\/SRAM_XI0\<13\>\/Mpmos_b_g N_VDD!_XI0\<13\>\/Mpmos_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 \
+ as=3.1725e-14 pd=6.9e-07 ps=8.85e-07
+mXtgate\<14\>\/MPMOS ( N_BL_I_B\<14\>_Xtgate\<14\>\/MPMOS_d \
+ N_A_B\<1\>_Xtgate\<14\>\/MPMOS_g N_BL_B\<14\>_Xtgate\<14\>\/MPMOS_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXprecharge\<14\>\/MM3 ( N_BL_I_B\<14\>_Xprecharge\<14\>\/MM3_d \
+ N_P_Xprecharge\<14\>\/MM3_g N_VDD!_Xprecharge\<14\>\/MM3_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXprecharge\<15\>\/MM3 ( N_BL_I_B\<15\>_Xprecharge\<15\>\/MM3_d \
+ N_P_Xprecharge\<15\>\/MM3_g N_VDD!_Xprecharge\<15\>\/MM3_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXtgate\<15\>\/MPMOS ( N_BL_I_B\<15\>_Xtgate\<15\>\/MPMOS_d \
+ N_A_B\<1\>_Xtgate\<15\>\/MPMOS_g N_BL_B\<15\>_Xtgate\<15\>\/MPMOS_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<14\>\/Mpmos_b ( N_XI0\<14\>\/SRAM_B_XI0\<14\>\/Mpmos_b_d \
+ N_XI0\<14\>\/SRAM_XI0\<14\>\/Mpmos_b_g N_VDD!_XI0\<14\>\/Mpmos_b_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 \
+ as=3.1725e-14 pd=6.9e-07 ps=8.85e-07
+mXprecharge\<15\>\/MM4 ( N_BL_I_B\<15\>_Xprecharge\<15\>\/MM4_d \
+ N_P_Xprecharge\<15\>\/MM4_g N_BL_I\<15\>_Xprecharge\<15\>\/MM4_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=1.575e-14 \
+ as=1.6425e-14 pd=5.3e-07 ps=5.45e-07
+mXI0\<14\>\/Mpmos ( N_XI0\<14\>\/SRAM_XI0\<14\>\/Mpmos_d \
+ N_XI0\<14\>\/SRAM_B_XI0\<14\>\/Mpmos_g N_VDD!_XI0\<14\>\/Mpmos_b_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 \
+ as=3.1725e-14 pd=6.7e-07 ps=8.85e-07
+mXtgate\<15\>\/MM1 ( N_BL_I\<15\>_Xtgate\<15\>\/MM1_d \
+ N_A_B\<1\>_Xtgate\<15\>\/MM1_g N_BL\<15\>_Xtgate\<15\>\/MM1_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXprecharge\<15\>\/MM0 ( N_BL_I\<15\>_Xprecharge\<15\>\/MM0_d \
+ N_P_Xprecharge\<15\>\/MM0_g N_VDD!_Xprecharge\<15\>\/MM0_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXprecharge\<16\>\/MM0 ( N_BL_I\<16\>_Xprecharge\<16\>\/MM0_d \
+ N_P_Xprecharge\<16\>\/MM0_g N_VDD!_Xprecharge\<16\>\/MM0_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXtgate\<16\>\/MM1 ( N_BL_I\<16\>_Xtgate\<16\>\/MM1_d \
+ N_A_B\<2\>_Xtgate\<16\>\/MM1_g N_BL\<16\>_Xtgate\<16\>\/MM1_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<15\>\/Mpmos ( N_XI0\<15\>\/SRAM_XI0\<15\>\/Mpmos_d \
+ N_XI0\<15\>\/SRAM_B_XI0\<15\>\/Mpmos_g N_VDD!_XI0\<15\>\/Mpmos_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 \
+ as=3.1725e-14 pd=6.7e-07 ps=8.85e-07
+mXprecharge\<16\>\/MM4 ( N_BL_I_B\<16\>_Xprecharge\<16\>\/MM4_d \
+ N_P_Xprecharge\<16\>\/MM4_g N_BL_I\<16\>_Xprecharge\<16\>\/MM4_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=1.575e-14 \
+ as=1.6425e-14 pd=5.3e-07 ps=5.45e-07
+mXI0\<15\>\/Mpmos_b ( N_XI0\<15\>\/SRAM_B_XI0\<15\>\/Mpmos_b_d \
+ N_XI0\<15\>\/SRAM_XI0\<15\>\/Mpmos_b_g N_VDD!_XI0\<15\>\/Mpmos_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 \
+ as=3.1725e-14 pd=6.9e-07 ps=8.85e-07
+mXtgate\<16\>\/MPMOS ( N_BL_I_B\<16\>_Xtgate\<16\>\/MPMOS_d \
+ N_A_B\<2\>_Xtgate\<16\>\/MPMOS_g N_BL_B\<16\>_Xtgate\<16\>\/MPMOS_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXprecharge\<16\>\/MM3 ( N_BL_I_B\<16\>_Xprecharge\<16\>\/MM3_d \
+ N_P_Xprecharge\<16\>\/MM3_g N_VDD!_Xprecharge\<16\>\/MM3_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXprecharge\<17\>\/MM3 ( N_BL_I_B\<17\>_Xprecharge\<17\>\/MM3_d \
+ N_P_Xprecharge\<17\>\/MM3_g N_VDD!_Xprecharge\<17\>\/MM3_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXtgate\<17\>\/MPMOS ( N_BL_I_B\<17\>_Xtgate\<17\>\/MPMOS_d \
+ N_A_B\<2\>_Xtgate\<17\>\/MPMOS_g N_BL_B\<17\>_Xtgate\<17\>\/MPMOS_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<16\>\/Mpmos_b ( N_XI0\<16\>\/SRAM_B_XI0\<16\>\/Mpmos_b_d \
+ N_XI0\<16\>\/SRAM_XI0\<16\>\/Mpmos_b_g N_VDD!_XI0\<16\>\/Mpmos_b_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 \
+ as=3.1725e-14 pd=6.9e-07 ps=8.85e-07
+mXprecharge\<17\>\/MM4 ( N_BL_I_B\<17\>_Xprecharge\<17\>\/MM4_d \
+ N_P_Xprecharge\<17\>\/MM4_g N_BL_I\<17\>_Xprecharge\<17\>\/MM4_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=1.575e-14 \
+ as=1.6425e-14 pd=5.3e-07 ps=5.45e-07
+mXI0\<16\>\/Mpmos ( N_XI0\<16\>\/SRAM_XI0\<16\>\/Mpmos_d \
+ N_XI0\<16\>\/SRAM_B_XI0\<16\>\/Mpmos_g N_VDD!_XI0\<16\>\/Mpmos_b_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 \
+ as=3.1725e-14 pd=6.7e-07 ps=8.85e-07
+mXtgate\<17\>\/MM1 ( N_BL_I\<17\>_Xtgate\<17\>\/MM1_d \
+ N_A_B\<2\>_Xtgate\<17\>\/MM1_g N_BL\<17\>_Xtgate\<17\>\/MM1_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXprecharge\<17\>\/MM0 ( N_BL_I\<17\>_Xprecharge\<17\>\/MM0_d \
+ N_P_Xprecharge\<17\>\/MM0_g N_VDD!_Xprecharge\<17\>\/MM0_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXprecharge\<18\>\/MM0 ( N_BL_I\<18\>_Xprecharge\<18\>\/MM0_d \
+ N_P_Xprecharge\<18\>\/MM0_g N_VDD!_Xprecharge\<18\>\/MM0_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXtgate\<18\>\/MM1 ( N_BL_I\<18\>_Xtgate\<18\>\/MM1_d \
+ N_A_B\<2\>_Xtgate\<18\>\/MM1_g N_BL\<18\>_Xtgate\<18\>\/MM1_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<17\>\/Mpmos ( N_XI0\<17\>\/SRAM_XI0\<17\>\/Mpmos_d \
+ N_XI0\<17\>\/SRAM_B_XI0\<17\>\/Mpmos_g N_VDD!_XI0\<17\>\/Mpmos_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 \
+ as=3.1725e-14 pd=6.7e-07 ps=8.85e-07
+mXprecharge\<18\>\/MM4 ( N_BL_I_B\<18\>_Xprecharge\<18\>\/MM4_d \
+ N_P_Xprecharge\<18\>\/MM4_g N_BL_I\<18\>_Xprecharge\<18\>\/MM4_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=1.575e-14 \
+ as=1.6425e-14 pd=5.3e-07 ps=5.45e-07
+mXI0\<17\>\/Mpmos_b ( N_XI0\<17\>\/SRAM_B_XI0\<17\>\/Mpmos_b_d \
+ N_XI0\<17\>\/SRAM_XI0\<17\>\/Mpmos_b_g N_VDD!_XI0\<17\>\/Mpmos_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 \
+ as=3.1725e-14 pd=6.9e-07 ps=8.85e-07
+mXtgate\<18\>\/MPMOS ( N_BL_I_B\<18\>_Xtgate\<18\>\/MPMOS_d \
+ N_A_B\<2\>_Xtgate\<18\>\/MPMOS_g N_BL_B\<18\>_Xtgate\<18\>\/MPMOS_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXprecharge\<18\>\/MM3 ( N_BL_I_B\<18\>_Xprecharge\<18\>\/MM3_d \
+ N_P_Xprecharge\<18\>\/MM3_g N_VDD!_Xprecharge\<18\>\/MM3_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXprecharge\<19\>\/MM3 ( N_BL_I_B\<19\>_Xprecharge\<19\>\/MM3_d \
+ N_P_Xprecharge\<19\>\/MM3_g N_VDD!_Xprecharge\<19\>\/MM3_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXtgate\<19\>\/MPMOS ( N_BL_I_B\<19\>_Xtgate\<19\>\/MPMOS_d \
+ N_A_B\<2\>_Xtgate\<19\>\/MPMOS_g N_BL_B\<19\>_Xtgate\<19\>\/MPMOS_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<18\>\/Mpmos_b ( N_XI0\<18\>\/SRAM_B_XI0\<18\>\/Mpmos_b_d \
+ N_XI0\<18\>\/SRAM_XI0\<18\>\/Mpmos_b_g N_VDD!_XI0\<18\>\/Mpmos_b_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 \
+ as=3.1725e-14 pd=6.9e-07 ps=8.85e-07
+mXprecharge\<19\>\/MM4 ( N_BL_I_B\<19\>_Xprecharge\<19\>\/MM4_d \
+ N_P_Xprecharge\<19\>\/MM4_g N_BL_I\<19\>_Xprecharge\<19\>\/MM4_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=1.575e-14 \
+ as=1.6425e-14 pd=5.3e-07 ps=5.45e-07
+mXI0\<18\>\/Mpmos ( N_XI0\<18\>\/SRAM_XI0\<18\>\/Mpmos_d \
+ N_XI0\<18\>\/SRAM_B_XI0\<18\>\/Mpmos_g N_VDD!_XI0\<18\>\/Mpmos_b_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 \
+ as=3.1725e-14 pd=6.7e-07 ps=8.85e-07
+mXtgate\<19\>\/MM1 ( N_BL_I\<19\>_Xtgate\<19\>\/MM1_d \
+ N_A_B\<2\>_Xtgate\<19\>\/MM1_g N_BL\<19\>_Xtgate\<19\>\/MM1_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXprecharge\<19\>\/MM0 ( N_BL_I\<19\>_Xprecharge\<19\>\/MM0_d \
+ N_P_Xprecharge\<19\>\/MM0_g N_VDD!_Xprecharge\<19\>\/MM0_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXprecharge\<20\>\/MM0 ( N_BL_I\<20\>_Xprecharge\<20\>\/MM0_d \
+ N_P_Xprecharge\<20\>\/MM0_g N_VDD!_Xprecharge\<20\>\/MM0_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXtgate\<20\>\/MM1 ( N_BL_I\<20\>_Xtgate\<20\>\/MM1_d \
+ N_A_B\<2\>_Xtgate\<20\>\/MM1_g N_BL\<20\>_Xtgate\<20\>\/MM1_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<19\>\/Mpmos ( N_XI0\<19\>\/SRAM_XI0\<19\>\/Mpmos_d \
+ N_XI0\<19\>\/SRAM_B_XI0\<19\>\/Mpmos_g N_VDD!_XI0\<19\>\/Mpmos_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 \
+ as=3.1725e-14 pd=6.7e-07 ps=8.85e-07
+mXprecharge\<20\>\/MM4 ( N_BL_I_B\<20\>_Xprecharge\<20\>\/MM4_d \
+ N_P_Xprecharge\<20\>\/MM4_g N_BL_I\<20\>_Xprecharge\<20\>\/MM4_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=1.575e-14 \
+ as=1.6425e-14 pd=5.3e-07 ps=5.45e-07
+mXI0\<19\>\/Mpmos_b ( N_XI0\<19\>\/SRAM_B_XI0\<19\>\/Mpmos_b_d \
+ N_XI0\<19\>\/SRAM_XI0\<19\>\/Mpmos_b_g N_VDD!_XI0\<19\>\/Mpmos_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 \
+ as=3.1725e-14 pd=6.9e-07 ps=8.85e-07
+mXtgate\<20\>\/MPMOS ( N_BL_I_B\<20\>_Xtgate\<20\>\/MPMOS_d \
+ N_A_B\<2\>_Xtgate\<20\>\/MPMOS_g N_BL_B\<20\>_Xtgate\<20\>\/MPMOS_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXprecharge\<20\>\/MM3 ( N_BL_I_B\<20\>_Xprecharge\<20\>\/MM3_d \
+ N_P_Xprecharge\<20\>\/MM3_g N_VDD!_Xprecharge\<20\>\/MM3_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXprecharge\<21\>\/MM3 ( N_BL_I_B\<21\>_Xprecharge\<21\>\/MM3_d \
+ N_P_Xprecharge\<21\>\/MM3_g N_VDD!_Xprecharge\<21\>\/MM3_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXtgate\<21\>\/MPMOS ( N_BL_I_B\<21\>_Xtgate\<21\>\/MPMOS_d \
+ N_A_B\<2\>_Xtgate\<21\>\/MPMOS_g N_BL_B\<21\>_Xtgate\<21\>\/MPMOS_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<20\>\/Mpmos_b ( N_XI0\<20\>\/SRAM_B_XI0\<20\>\/Mpmos_b_d \
+ N_XI0\<20\>\/SRAM_XI0\<20\>\/Mpmos_b_g N_VDD!_XI0\<20\>\/Mpmos_b_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 \
+ as=3.1725e-14 pd=6.9e-07 ps=8.85e-07
+mXprecharge\<21\>\/MM4 ( N_BL_I_B\<21\>_Xprecharge\<21\>\/MM4_d \
+ N_P_Xprecharge\<21\>\/MM4_g N_BL_I\<21\>_Xprecharge\<21\>\/MM4_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=1.575e-14 \
+ as=1.6425e-14 pd=5.3e-07 ps=5.45e-07
+mXI0\<20\>\/Mpmos ( N_XI0\<20\>\/SRAM_XI0\<20\>\/Mpmos_d \
+ N_XI0\<20\>\/SRAM_B_XI0\<20\>\/Mpmos_g N_VDD!_XI0\<20\>\/Mpmos_b_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 \
+ as=3.1725e-14 pd=6.7e-07 ps=8.85e-07
+mXtgate\<21\>\/MM1 ( N_BL_I\<21\>_Xtgate\<21\>\/MM1_d \
+ N_A_B\<2\>_Xtgate\<21\>\/MM1_g N_BL\<21\>_Xtgate\<21\>\/MM1_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXprecharge\<21\>\/MM0 ( N_BL_I\<21\>_Xprecharge\<21\>\/MM0_d \
+ N_P_Xprecharge\<21\>\/MM0_g N_VDD!_Xprecharge\<21\>\/MM0_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXprecharge\<22\>\/MM0 ( N_BL_I\<22\>_Xprecharge\<22\>\/MM0_d \
+ N_P_Xprecharge\<22\>\/MM0_g N_VDD!_Xprecharge\<22\>\/MM0_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXtgate\<22\>\/MM1 ( N_BL_I\<22\>_Xtgate\<22\>\/MM1_d \
+ N_A_B\<2\>_Xtgate\<22\>\/MM1_g N_BL\<22\>_Xtgate\<22\>\/MM1_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<21\>\/Mpmos ( N_XI0\<21\>\/SRAM_XI0\<21\>\/Mpmos_d \
+ N_XI0\<21\>\/SRAM_B_XI0\<21\>\/Mpmos_g N_VDD!_XI0\<21\>\/Mpmos_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 \
+ as=3.1725e-14 pd=6.7e-07 ps=8.85e-07
+mXprecharge\<22\>\/MM4 ( N_BL_I_B\<22\>_Xprecharge\<22\>\/MM4_d \
+ N_P_Xprecharge\<22\>\/MM4_g N_BL_I\<22\>_Xprecharge\<22\>\/MM4_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=1.575e-14 \
+ as=1.6425e-14 pd=5.3e-07 ps=5.45e-07
+mXI0\<21\>\/Mpmos_b ( N_XI0\<21\>\/SRAM_B_XI0\<21\>\/Mpmos_b_d \
+ N_XI0\<21\>\/SRAM_XI0\<21\>\/Mpmos_b_g N_VDD!_XI0\<21\>\/Mpmos_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 \
+ as=3.1725e-14 pd=6.9e-07 ps=8.85e-07
+mXtgate\<22\>\/MPMOS ( N_BL_I_B\<22\>_Xtgate\<22\>\/MPMOS_d \
+ N_A_B\<2\>_Xtgate\<22\>\/MPMOS_g N_BL_B\<22\>_Xtgate\<22\>\/MPMOS_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXprecharge\<22\>\/MM3 ( N_BL_I_B\<22\>_Xprecharge\<22\>\/MM3_d \
+ N_P_Xprecharge\<22\>\/MM3_g N_VDD!_Xprecharge\<22\>\/MM3_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXprecharge\<23\>\/MM3 ( N_BL_I_B\<23\>_Xprecharge\<23\>\/MM3_d \
+ N_P_Xprecharge\<23\>\/MM3_g N_VDD!_Xprecharge\<23\>\/MM3_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXtgate\<23\>\/MPMOS ( N_BL_I_B\<23\>_Xtgate\<23\>\/MPMOS_d \
+ N_A_B\<2\>_Xtgate\<23\>\/MPMOS_g N_BL_B\<23\>_Xtgate\<23\>\/MPMOS_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<22\>\/Mpmos_b ( N_XI0\<22\>\/SRAM_B_XI0\<22\>\/Mpmos_b_d \
+ N_XI0\<22\>\/SRAM_XI0\<22\>\/Mpmos_b_g N_VDD!_XI0\<22\>\/Mpmos_b_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 \
+ as=3.1725e-14 pd=6.9e-07 ps=8.85e-07
+mXprecharge\<23\>\/MM4 ( N_BL_I_B\<23\>_Xprecharge\<23\>\/MM4_d \
+ N_P_Xprecharge\<23\>\/MM4_g N_BL_I\<23\>_Xprecharge\<23\>\/MM4_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=1.575e-14 \
+ as=1.6425e-14 pd=5.3e-07 ps=5.45e-07
+mXI0\<22\>\/Mpmos ( N_XI0\<22\>\/SRAM_XI0\<22\>\/Mpmos_d \
+ N_XI0\<22\>\/SRAM_B_XI0\<22\>\/Mpmos_g N_VDD!_XI0\<22\>\/Mpmos_b_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 \
+ as=3.1725e-14 pd=6.7e-07 ps=8.85e-07
+mXtgate\<23\>\/MM1 ( N_BL_I\<23\>_Xtgate\<23\>\/MM1_d \
+ N_A_B\<2\>_Xtgate\<23\>\/MM1_g N_BL\<23\>_Xtgate\<23\>\/MM1_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXprecharge\<23\>\/MM0 ( N_BL_I\<23\>_Xprecharge\<23\>\/MM0_d \
+ N_P_Xprecharge\<23\>\/MM0_g N_VDD!_Xprecharge\<23\>\/MM0_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXprecharge\<24\>\/MM0 ( N_BL_I\<24\>_Xprecharge\<24\>\/MM0_d \
+ N_P_Xprecharge\<24\>\/MM0_g N_VDD!_Xprecharge\<24\>\/MM0_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXtgate\<24\>\/MM1 ( N_BL_I\<24\>_Xtgate\<24\>\/MM1_d \
+ N_A_B\<3\>_Xtgate\<24\>\/MM1_g N_BL\<24\>_Xtgate\<24\>\/MM1_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<23\>\/Mpmos ( N_XI0\<23\>\/SRAM_XI0\<23\>\/Mpmos_d \
+ N_XI0\<23\>\/SRAM_B_XI0\<23\>\/Mpmos_g N_VDD!_XI0\<23\>\/Mpmos_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 \
+ as=3.1725e-14 pd=6.7e-07 ps=8.85e-07
+mXprecharge\<24\>\/MM4 ( N_BL_I_B\<24\>_Xprecharge\<24\>\/MM4_d \
+ N_P_Xprecharge\<24\>\/MM4_g N_BL_I\<24\>_Xprecharge\<24\>\/MM4_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=1.575e-14 \
+ as=1.6425e-14 pd=5.3e-07 ps=5.45e-07
+mXI0\<23\>\/Mpmos_b ( N_XI0\<23\>\/SRAM_B_XI0\<23\>\/Mpmos_b_d \
+ N_XI0\<23\>\/SRAM_XI0\<23\>\/Mpmos_b_g N_VDD!_XI0\<23\>\/Mpmos_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 \
+ as=3.1725e-14 pd=6.9e-07 ps=8.85e-07
+mXtgate\<24\>\/MPMOS ( N_BL_I_B\<24\>_Xtgate\<24\>\/MPMOS_d \
+ N_A_B\<3\>_Xtgate\<24\>\/MPMOS_g N_BL_B\<24\>_Xtgate\<24\>\/MPMOS_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXprecharge\<24\>\/MM3 ( N_BL_I_B\<24\>_Xprecharge\<24\>\/MM3_d \
+ N_P_Xprecharge\<24\>\/MM3_g N_VDD!_Xprecharge\<24\>\/MM3_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXprecharge\<25\>\/MM3 ( N_BL_I_B\<25\>_Xprecharge\<25\>\/MM3_d \
+ N_P_Xprecharge\<25\>\/MM3_g N_VDD!_Xprecharge\<25\>\/MM3_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXtgate\<25\>\/MPMOS ( N_BL_I_B\<25\>_Xtgate\<25\>\/MPMOS_d \
+ N_A_B\<3\>_Xtgate\<25\>\/MPMOS_g N_BL_B\<25\>_Xtgate\<25\>\/MPMOS_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<24\>\/Mpmos_b ( N_XI0\<24\>\/SRAM_B_XI0\<24\>\/Mpmos_b_d \
+ N_XI0\<24\>\/SRAM_XI0\<24\>\/Mpmos_b_g N_VDD!_XI0\<24\>\/Mpmos_b_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 \
+ as=3.1725e-14 pd=6.9e-07 ps=8.85e-07
+mXprecharge\<25\>\/MM4 ( N_BL_I_B\<25\>_Xprecharge\<25\>\/MM4_d \
+ N_P_Xprecharge\<25\>\/MM4_g N_BL_I\<25\>_Xprecharge\<25\>\/MM4_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=1.575e-14 \
+ as=1.6425e-14 pd=5.3e-07 ps=5.45e-07
+mXI0\<24\>\/Mpmos ( N_XI0\<24\>\/SRAM_XI0\<24\>\/Mpmos_d \
+ N_XI0\<24\>\/SRAM_B_XI0\<24\>\/Mpmos_g N_VDD!_XI0\<24\>\/Mpmos_b_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 \
+ as=3.1725e-14 pd=6.7e-07 ps=8.85e-07
+mXtgate\<25\>\/MM1 ( N_BL_I\<25\>_Xtgate\<25\>\/MM1_d \
+ N_A_B\<3\>_Xtgate\<25\>\/MM1_g N_BL\<25\>_Xtgate\<25\>\/MM1_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXprecharge\<25\>\/MM0 ( N_BL_I\<25\>_Xprecharge\<25\>\/MM0_d \
+ N_P_Xprecharge\<25\>\/MM0_g N_VDD!_Xprecharge\<25\>\/MM0_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXprecharge\<26\>\/MM0 ( N_BL_I\<26\>_Xprecharge\<26\>\/MM0_d \
+ N_P_Xprecharge\<26\>\/MM0_g N_VDD!_Xprecharge\<26\>\/MM0_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXtgate\<26\>\/MM1 ( N_BL_I\<26\>_Xtgate\<26\>\/MM1_d \
+ N_A_B\<3\>_Xtgate\<26\>\/MM1_g N_BL\<26\>_Xtgate\<26\>\/MM1_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<25\>\/Mpmos ( N_XI0\<25\>\/SRAM_XI0\<25\>\/Mpmos_d \
+ N_XI0\<25\>\/SRAM_B_XI0\<25\>\/Mpmos_g N_VDD!_XI0\<25\>\/Mpmos_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 \
+ as=3.1725e-14 pd=6.7e-07 ps=8.85e-07
+mXprecharge\<26\>\/MM4 ( N_BL_I_B\<26\>_Xprecharge\<26\>\/MM4_d \
+ N_P_Xprecharge\<26\>\/MM4_g N_BL_I\<26\>_Xprecharge\<26\>\/MM4_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=1.575e-14 \
+ as=1.6425e-14 pd=5.3e-07 ps=5.45e-07
+mXI0\<25\>\/Mpmos_b ( N_XI0\<25\>\/SRAM_B_XI0\<25\>\/Mpmos_b_d \
+ N_XI0\<25\>\/SRAM_XI0\<25\>\/Mpmos_b_g N_VDD!_XI0\<25\>\/Mpmos_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 \
+ as=3.1725e-14 pd=6.9e-07 ps=8.85e-07
+mXtgate\<26\>\/MPMOS ( N_BL_I_B\<26\>_Xtgate\<26\>\/MPMOS_d \
+ N_A_B\<3\>_Xtgate\<26\>\/MPMOS_g N_BL_B\<26\>_Xtgate\<26\>\/MPMOS_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXprecharge\<26\>\/MM3 ( N_BL_I_B\<26\>_Xprecharge\<26\>\/MM3_d \
+ N_P_Xprecharge\<26\>\/MM3_g N_VDD!_Xprecharge\<26\>\/MM3_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXprecharge\<27\>\/MM3 ( N_BL_I_B\<27\>_Xprecharge\<27\>\/MM3_d \
+ N_P_Xprecharge\<27\>\/MM3_g N_VDD!_Xprecharge\<27\>\/MM3_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXtgate\<27\>\/MPMOS ( N_BL_I_B\<27\>_Xtgate\<27\>\/MPMOS_d \
+ N_A_B\<3\>_Xtgate\<27\>\/MPMOS_g N_BL_B\<27\>_Xtgate\<27\>\/MPMOS_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<26\>\/Mpmos_b ( N_XI0\<26\>\/SRAM_B_XI0\<26\>\/Mpmos_b_d \
+ N_XI0\<26\>\/SRAM_XI0\<26\>\/Mpmos_b_g N_VDD!_XI0\<26\>\/Mpmos_b_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 \
+ as=3.1725e-14 pd=6.9e-07 ps=8.85e-07
+mXprecharge\<27\>\/MM4 ( N_BL_I_B\<27\>_Xprecharge\<27\>\/MM4_d \
+ N_P_Xprecharge\<27\>\/MM4_g N_BL_I\<27\>_Xprecharge\<27\>\/MM4_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=1.575e-14 \
+ as=1.6425e-14 pd=5.3e-07 ps=5.45e-07
+mXI0\<26\>\/Mpmos ( N_XI0\<26\>\/SRAM_XI0\<26\>\/Mpmos_d \
+ N_XI0\<26\>\/SRAM_B_XI0\<26\>\/Mpmos_g N_VDD!_XI0\<26\>\/Mpmos_b_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 \
+ as=3.1725e-14 pd=6.7e-07 ps=8.85e-07
+mXtgate\<27\>\/MM1 ( N_BL_I\<27\>_Xtgate\<27\>\/MM1_d \
+ N_A_B\<3\>_Xtgate\<27\>\/MM1_g N_BL\<27\>_Xtgate\<27\>\/MM1_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXprecharge\<27\>\/MM0 ( N_BL_I\<27\>_Xprecharge\<27\>\/MM0_d \
+ N_P_Xprecharge\<27\>\/MM0_g N_VDD!_Xprecharge\<27\>\/MM0_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXprecharge\<28\>\/MM0 ( N_BL_I\<28\>_Xprecharge\<28\>\/MM0_d \
+ N_P_Xprecharge\<28\>\/MM0_g N_VDD!_Xprecharge\<28\>\/MM0_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXtgate\<28\>\/MM1 ( N_BL_I\<28\>_Xtgate\<28\>\/MM1_d \
+ N_A_B\<3\>_Xtgate\<28\>\/MM1_g N_BL\<28\>_Xtgate\<28\>\/MM1_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<27\>\/Mpmos ( N_XI0\<27\>\/SRAM_XI0\<27\>\/Mpmos_d \
+ N_XI0\<27\>\/SRAM_B_XI0\<27\>\/Mpmos_g N_VDD!_XI0\<27\>\/Mpmos_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 \
+ as=3.1725e-14 pd=6.7e-07 ps=8.85e-07
+mXprecharge\<28\>\/MM4 ( N_BL_I_B\<28\>_Xprecharge\<28\>\/MM4_d \
+ N_P_Xprecharge\<28\>\/MM4_g N_BL_I\<28\>_Xprecharge\<28\>\/MM4_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=1.575e-14 \
+ as=1.6425e-14 pd=5.3e-07 ps=5.45e-07
+mXI0\<27\>\/Mpmos_b ( N_XI0\<27\>\/SRAM_B_XI0\<27\>\/Mpmos_b_d \
+ N_XI0\<27\>\/SRAM_XI0\<27\>\/Mpmos_b_g N_VDD!_XI0\<27\>\/Mpmos_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 \
+ as=3.1725e-14 pd=6.9e-07 ps=8.85e-07
+mXtgate\<28\>\/MPMOS ( N_BL_I_B\<28\>_Xtgate\<28\>\/MPMOS_d \
+ N_A_B\<3\>_Xtgate\<28\>\/MPMOS_g N_BL_B\<28\>_Xtgate\<28\>\/MPMOS_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXprecharge\<28\>\/MM3 ( N_BL_I_B\<28\>_Xprecharge\<28\>\/MM3_d \
+ N_P_Xprecharge\<28\>\/MM3_g N_VDD!_Xprecharge\<28\>\/MM3_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXprecharge\<29\>\/MM3 ( N_BL_I_B\<29\>_Xprecharge\<29\>\/MM3_d \
+ N_P_Xprecharge\<29\>\/MM3_g N_VDD!_Xprecharge\<29\>\/MM3_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXtgate\<29\>\/MPMOS ( N_BL_I_B\<29\>_Xtgate\<29\>\/MPMOS_d \
+ N_A_B\<3\>_Xtgate\<29\>\/MPMOS_g N_BL_B\<29\>_Xtgate\<29\>\/MPMOS_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<28\>\/Mpmos_b ( N_XI0\<28\>\/SRAM_B_XI0\<28\>\/Mpmos_b_d \
+ N_XI0\<28\>\/SRAM_XI0\<28\>\/Mpmos_b_g N_VDD!_XI0\<28\>\/Mpmos_b_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 \
+ as=3.1725e-14 pd=6.9e-07 ps=8.85e-07
+mXprecharge\<29\>\/MM4 ( N_BL_I_B\<29\>_Xprecharge\<29\>\/MM4_d \
+ N_P_Xprecharge\<29\>\/MM4_g N_BL_I\<29\>_Xprecharge\<29\>\/MM4_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=1.575e-14 \
+ as=1.6425e-14 pd=5.3e-07 ps=5.45e-07
+mXI0\<28\>\/Mpmos ( N_XI0\<28\>\/SRAM_XI0\<28\>\/Mpmos_d \
+ N_XI0\<28\>\/SRAM_B_XI0\<28\>\/Mpmos_g N_VDD!_XI0\<28\>\/Mpmos_b_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 \
+ as=3.1725e-14 pd=6.7e-07 ps=8.85e-07
+mXtgate\<29\>\/MM1 ( N_BL_I\<29\>_Xtgate\<29\>\/MM1_d \
+ N_A_B\<3\>_Xtgate\<29\>\/MM1_g N_BL\<29\>_Xtgate\<29\>\/MM1_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXprecharge\<29\>\/MM0 ( N_BL_I\<29\>_Xprecharge\<29\>\/MM0_d \
+ N_P_Xprecharge\<29\>\/MM0_g N_VDD!_Xprecharge\<29\>\/MM0_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXprecharge\<30\>\/MM0 ( N_BL_I\<30\>_Xprecharge\<30\>\/MM0_d \
+ N_P_Xprecharge\<30\>\/MM0_g N_VDD!_Xprecharge\<30\>\/MM0_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXtgate\<30\>\/MM1 ( N_BL_I\<30\>_Xtgate\<30\>\/MM1_d \
+ N_A_B\<3\>_Xtgate\<30\>\/MM1_g N_BL\<30\>_Xtgate\<30\>\/MM1_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<29\>\/Mpmos ( N_XI0\<29\>\/SRAM_XI0\<29\>\/Mpmos_d \
+ N_XI0\<29\>\/SRAM_B_XI0\<29\>\/Mpmos_g N_VDD!_XI0\<29\>\/Mpmos_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 \
+ as=3.1725e-14 pd=6.7e-07 ps=8.85e-07
+mXprecharge\<30\>\/MM4 ( N_BL_I_B\<30\>_Xprecharge\<30\>\/MM4_d \
+ N_P_Xprecharge\<30\>\/MM4_g N_BL_I\<30\>_Xprecharge\<30\>\/MM4_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=1.575e-14 \
+ as=1.6425e-14 pd=5.3e-07 ps=5.45e-07
+mXI0\<29\>\/Mpmos_b ( N_XI0\<29\>\/SRAM_B_XI0\<29\>\/Mpmos_b_d \
+ N_XI0\<29\>\/SRAM_XI0\<29\>\/Mpmos_b_g N_VDD!_XI0\<29\>\/Mpmos_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 \
+ as=3.1725e-14 pd=6.9e-07 ps=8.85e-07
+mXtgate\<30\>\/MPMOS ( N_BL_I_B\<30\>_Xtgate\<30\>\/MPMOS_d \
+ N_A_B\<3\>_Xtgate\<30\>\/MPMOS_g N_BL_B\<30\>_Xtgate\<30\>\/MPMOS_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXprecharge\<30\>\/MM3 ( N_BL_I_B\<30\>_Xprecharge\<30\>\/MM3_d \
+ N_P_Xprecharge\<30\>\/MM3_g N_VDD!_Xprecharge\<30\>\/MM3_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXprecharge\<31\>\/MM3 ( N_BL_I_B\<31\>_Xprecharge\<31\>\/MM3_d \
+ N_P_Xprecharge\<31\>\/MM3_g N_VDD!_Xprecharge\<31\>\/MM3_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+mXtgate\<31\>\/MPMOS ( N_BL_I_B\<31\>_Xtgate\<31\>\/MPMOS_d \
+ N_A_B\<3\>_Xtgate\<31\>\/MPMOS_g N_BL_B\<31\>_Xtgate\<31\>\/MPMOS_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXI0\<30\>\/Mpmos_b ( N_XI0\<30\>\/SRAM_B_XI0\<30\>\/Mpmos_b_d \
+ N_XI0\<30\>\/SRAM_XI0\<30\>\/Mpmos_b_g N_VDD!_XI0\<30\>\/Mpmos_b_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.295e-14 \
+ as=3.1725e-14 pd=6.9e-07 ps=8.85e-07
+mXprecharge\<31\>\/MM4 ( N_BL_I_B\<31\>_Xprecharge\<31\>\/MM4_d \
+ N_P_Xprecharge\<31\>\/MM4_g N_BL_I\<31\>_Xprecharge\<31\>\/MM4_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=1.575e-14 \
+ as=1.6425e-14 pd=5.3e-07 ps=5.45e-07
+mXI0\<30\>\/Mpmos ( N_XI0\<30\>\/SRAM_XI0\<30\>\/Mpmos_d \
+ N_XI0\<30\>\/SRAM_B_XI0\<30\>\/Mpmos_g N_VDD!_XI0\<30\>\/Mpmos_b_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=2.205e-14 \
+ as=3.1725e-14 pd=6.7e-07 ps=8.85e-07
+mXtgate\<31\>\/MM1 ( N_BL_I\<31\>_Xtgate\<31\>\/MM1_d \
+ N_A_B\<3\>_Xtgate\<31\>\/MM1_g N_BL\<31\>_Xtgate\<31\>\/MM1_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=1.35e-07 ad=2.0925e-14 \
+ as=2.0925e-14 pd=5.8e-07 ps=5.8e-07
+mXprecharge\<31\>\/MM0 ( N_BL_I\<31\>_Xprecharge\<31\>\/MM0_d \
+ N_P_Xprecharge\<31\>\/MM0_g N_VDD!_Xprecharge\<31\>\/MM0_s \
+ N_VDD!_Xprecharge\<0\>\/MM0_b ) PMOS_VTL l=5e-08 w=9e-08 ad=4.0725e-14 \
+ as=1.62e-14 pd=1.085e-06 ps=5.4e-07
+// 
+include "/nethome/nsoraba3/ECE_Cadence_Lab/Cadence/ECE6130Project/extracted.netlist.SYSTEMLAYOUT_2.pxi"
+// 
+ends SYSTEMLAYOUT_2
+// 
+// 

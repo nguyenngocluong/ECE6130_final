@@ -1,0 +1,23 @@
+\o Program:		@(#)$CDS: libManager version 6.1.5 - CAT32 05/06/2013 23:35 (cat91amd) $
+\o Sub version:		sub-version  s014 
+\o Arguments:		-mpssession virtuoso22608 -mpshost ccblincad23.ece.gatech.edu 
+\o Working Directory:	ccblincad23.ece.gatech.edu:/nethome/msrinivas3/ECE_Cadence_Lab/ECE6130Project
+\o 64-bit offsets
+\o Qt version: 		4.5.3
+\o Log file is "/nethome/msrinivas3/ECE_Cadence_Lab/ECE6130Project/libManager.log".
+\o Opening libManager window.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(0 25 1276 947))
+\o changeWorkingDir("/nethome/msrinivas3/ECE_Cadence_Lab/ECE6130Project") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o MPS service: map window
+\o Library Manager customization server connected.
+\w Warning: The directory: '/nethome/msrinivas3/ECE_Cadence_Lab/ECEProject' does not exist
+\w 	but was defined in libFile '/nethome/msrinivas3/ECE_Cadence_Lab/ECE6130Project/cds.lib' for Lib 'ECEProject'.
+\w Warning: The directory: '/nethome/msrinivas3/ECE_Cadence_Lab/ECE6130Project/ECEProj' does not exist
+\w 	but was defined in libFile '/nethome/msrinivas3/ECE_Cadence_Lab/ECE6130Project/cds.lib' for Lib 'ECEProj'.
+\w Warning: The directory: '/nethome/msrinivas3/xyz/virtuoso/myDesign' does not exist
+\w 	but was defined in libFile '/nethome/msrinivas3/cds.lib' for Lib 'myDesign'.
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\o libManager is exiting.
+\a exit(0)
